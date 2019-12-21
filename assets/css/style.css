@@ -14,3 +14,8 @@ main {
     margin-top: 60px;
     /* Altura do menu do Bootstrap*/
 }
+
+.card {
+    min-width: 200px;
+    flex: 1 1 240px;
+}

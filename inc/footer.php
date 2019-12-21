@@ -1,5 +1,5 @@
 <footer class="container-fluid bg-dark text-white py-3">
-    <p class="col-12 text-center">Djament Comunicação &copy; | 2019</p>
+    <p class="col-12 text-center">Copyright &copy; 2019 - <?php echo date("Y"); ?> | Djament Comunicação</p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

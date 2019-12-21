@@ -1,7 +1,7 @@
 <header id="headerTopo">
     <nav class="navbar navbar-expand-lg fixed-top bg-dark">
         <a class="navbar-brand text-white" href="./" title="Acesse a Home da magicBox">
-            <img src="https://compracerta.vteximg.com.br/arquivos/compracerta2-favicon-32x32.png" alt="Logo Compra Certa">
+        <i class="fad fa-hand-holding-box text-warning"></i>
             magicBox <small>| Ideias&Insights</small>
         </a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#menuTopo" aria-controls="menuTopo" aria-expanded="false" aria-label="Toggle navigation" title="Acessar submenu">
