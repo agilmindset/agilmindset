@@ -10,7 +10,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
             <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-black">Last updated 3 mins ago</small>
             </div>
         </section>
         <section class="card">
@@ -20,7 +20,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
             <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-black">Last updated 3 mins ago</small>
             </div>
         </section>
         <section class="card">
@@ -30,7 +30,7 @@
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
             <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-black">Last updated 3 mins ago</small>
             </div>
         </section>
         <section class="card">
@@ -40,7 +40,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
             <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-black">Last updated 3 mins ago</small>
             </div>
         </section>
     </article>
