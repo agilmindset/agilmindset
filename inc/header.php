@@ -1,5 +1,5 @@
 <header id="headerTopo">
-    <nav class="navbar navbar-expand-lg fixed-top bg-info">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
         <a class="navbar-brand text-white" href="./" title="Acesse a Home da magicBox">
             <img src="https://compracerta.vteximg.com.br/arquivos/compracerta2-favicon-32x32.png" alt="Logo Compra Certa">
             magicBox <small>| Ideias&Insights</small>
