@@ -1,6 +1,6 @@
 <header id="headerTopo">
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="./" title="Acesse a Home da magicBox">
+    <nav class="navbar navbar-expand-lg fixed-top bg-info">
+        <a class="navbar-brand text-white" href="./" title="Acesse a Home da magicBox">
             <img src="https://compracerta.vteximg.com.br/arquivos/compracerta2-favicon-32x32.png" alt="Logo Compra Certa">
             magicBox <small>| Ideias&Insights</small>
         </a>
@@ -10,10 +10,10 @@
         <div class="collapse navbar-collapse" id="menuTopo">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ml-auto">
-                    <a class="nav-link" href="./cadastrar.php" title="Cadastre-se">Cadastre-se</a>
+                    <a class="nav-link text-white" href="./cadastrar.php" title="Cadastre-se">Cadastre-se</a>
                 </li>
                 <li class="nav-item ml-auto">
-                    <a class="nav-link" href="./login.php" title="Faça Login">Login</a>
+                    <a class="nav-link text-white" href="./login.php" title="Faça Login">Login</a>
                 </li>
             </ul>
         </div>
