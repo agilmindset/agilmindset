@@ -1,7 +1,7 @@
 <header id="headerTopo">
     <nav class="navbar navbar-expand-lg fixed-top bg-dark">
         <a class="navbar-brand text-white" href="./" title="Acesse a Home da magicBox">
-            magicBox <small class="d-none d-sm-inline">| Ideias&Insights</small>
+            magic<span class="box">Box</span> <small class="d-none d-sm-inline">| Ideias&Insights</small>
         </a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#menuTopo" aria-controls="menuTopo" aria-expanded="false" aria-label="Toggle navigation" title="Acessar submenu">
             <span class="navbar-toggler-icon"></span>

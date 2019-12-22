@@ -1,6 +1,6 @@
 <section id="vitrineIdeias" class="row p-5">
-    <header class="col-12">
-        <h2 class="text-center mb-4"><i class="fad fa-lightbulb text-info"></i> ideias</h2>
+    <header class="col-12 px-0">
+        <h2 class="col-12 py-2 text-center mx-0 mb-4"> ideias</h2>
     </header>
     <article class="col-12 card-columns">
         <section class="card">

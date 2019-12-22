@@ -4,12 +4,38 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
     /* Permite customizar o ícone do menu mobile */
 }
-
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.6s ease-in;
+}
+a:hover {
+    color: #ccff00;
+}
+a span.box {
+    color: #ccff00;
+    font-weight: bolder;
+}
+a span.box:hover {
+    color: #343a40;
+}
+a.nav-link.text-white:hover {
+    color: #ccff00 !important;
+}
+ul {
+    list-style: none;
+}
+.btn-dark {
+    transition: all 0.3s ease-in-out;
+}
+.btn-dark:hover {
+    background-color: #c6ff00;
+    color: #000;
+}
 main {
     margin-top: 60px;
     /* Altura do menu do Bootstrap*/
@@ -17,12 +43,19 @@ main {
 .carousel-caption h1 {
     font-size: 4em;
     font-weight: bolder;
-    text-transform: uppercase;
     font-family: 'Comfortaa', sans-serif;
 }
 .carousel-caption p{
     font-size: 1.25em;
     font-family: 'Comfortaa', sans-serif;
+}
+section header {
+    background-color: #c6ff00;
+    border-left: 21px solid #343a40;
+}
+section header p {
+    font-size: 1.2em;
+    font-weight: 600;
 }
 .card-deck .card {
     max-width: 1080px;
@@ -38,4 +71,5 @@ main {
     -webkit-box-orient: vertical;  
     display: -webkit-box;
     white-space: wrap;
+    text-align: justify;
 }
