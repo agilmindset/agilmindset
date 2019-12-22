@@ -14,8 +14,28 @@ main {
     margin-top: 60px;
     /* Altura do menu do Bootstrap*/
 }
-
-.card {
+.carousel-caption h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', sans-serif;
+}
+.carousel-caption p{
+    font-size: 1.25em;
+    font-family: 'Comfortaa', sans-serif;
+}
+.card-deck .card {
+    max-width: 1080px;
     min-width: 200px;
     flex: 1 1 240px;
+}
+.card-deck .card p.card-text {
+    height: 100px;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;  
+    display: -webkit-box;
+    white-space: wrap;
 }
