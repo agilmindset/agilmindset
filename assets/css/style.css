@@ -16,12 +16,20 @@ a {
 a:hover {
     color: #ccff00;
 }
+a.navbar-brand.text-white:hover {
+    color: #ccff00 !important;
+}
 a span.box {
     color: #ccff00;
     font-weight: bolder;
+    transition: all 0.6s ease-in;
+}
+a.navbar-brand.text-white:hover span.box{
+    color: #fff !important;
 }
 a span.box:hover {
-    color: #343a40;
+    /* color: #343a40; */
+    color: #fff;
 }
 a.nav-link.text-white:hover {
     color: #ccff00 !important;

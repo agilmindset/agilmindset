@@ -1,6 +1,6 @@
 <section id="vitrineHome" class="row bg-light p-5">
     <header class="col-12 px-0">
-        <h2 class="col-12 pt-4 text-center mx-0">Fomentamos a Inovação</h2>
+        <h2 class="col-12 pt-4 text-center mx-0">Inovação</h2>
         <p class="col-12 pb-2 text-center mx-0 mb-4">Através de Processos Dinâmicos e Interativos e Análise de Dados</p>
     </header>
     <article class="card-deck">
