@@ -40,7 +40,8 @@ ul {
 .btn-dark {
     transition: all 0.3s ease-in-out;
 }
-.btn-dark:hover {
+.btn-dark:hover,
+.btn-dark[aria-expanded="true"] {
     background-color: #c6ff00;
     color: #000;
 }
@@ -60,8 +61,14 @@ main {
 section header {
     background-color: #c6ff00;
     border-left: 21px solid #343a40;
+    font-weight: bolder;
+    font-family: 'Comfortaa', sans-serif;
 }
-section header p {
+.descricaoVitrineHome {
+    background-color: #c6ff00;
+}
+section header p,
+.descricaoVitrineHome p {
     font-size: 1.2em;
     font-weight: 600;
 }
@@ -79,5 +86,4 @@ section header p {
     -webkit-box-orient: vertical;  
     display: -webkit-box;
     white-space: wrap;
-    text-align: justify;
 }

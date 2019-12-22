@@ -1,4 +1,4 @@
-<?php $tituloPagina = "magicBox | Welcome!"; ?>
+<?php $tituloPagina = "agilBox | Welcome!"; ?>
 <?php $descricaoPagina = "Share ideas, improve processes, empower people, get to know your customers better"; ?>
 <?php require_once("./inc/head.php"); ?>
 
