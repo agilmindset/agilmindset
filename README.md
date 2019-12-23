@@ -1,5 +1,5 @@
 # agilMindset!
-[![No Vulnerabilities](https://snyk.io/test/npm/jquery/3.4.1/badge.svg)](http://djament.com.br/cv.php)
+[![No Vulnerabilities](https://snyk.io/test/npm/jquery/3.4.1/badge.svg)](https://djament.com.br/cv.php)
 #### Share ideas, improve processes, empower people, get to know your customers better
 
 >> An **Ideas & Insights Sharing Platform** based on
@@ -71,6 +71,6 @@ agilMindset current release uses simple languages due to the fact that it is a M
 * MD
 
 #
-[![Djament Comunicação](https://djament.com.br/favicons/favicon-96x96.png)](http://djament.com.br/cv.php)
+[![Djament Comunicação](https://djament.com.br/favicons/favicon-96x96.png)](https://djament.com.br/cv.php)
 ###### Developed by Marcelo Diament
 #
