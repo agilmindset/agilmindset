@@ -1,30 +1,30 @@
 <section id="carouselPrincipal" class="row carousel slide" data-ride="carousel">
     <article class="carousel-inner">
         <div class="carousel-item active">
-        <img srcset="assets/img/banner01-xl.jpg 1140w, assets/img/banner01-lg.jpg 960w, assets/img/banner01-md.jpg 720w, assets/img/banner01-sm.jpg 540w, assets/img/banner01-xs.jpg 480w" sizes="(min-width: 1200px) 1140px, (min-width: 992px) 960px, (min-width: 768px) 720px, (min-width: 576px) 540px, 480px" src="assets/img/banner01-lg.jpg" class="d-block w-100" alt="agilMindset | Uma plataforma para dividirmos insights e sugerirmos projetos inovadores">
+        <img srcset="assets/img/agil-mindset-xl.jpg 1140w, assets/img/agil-mindset-lg.jpg 960w, assets/img/agil-mindset-md.jpg 720w, assets/img/agil-mindset-sm.jpg 540w, assets/img/agil-mindset-xs.jpg 480w" sizes="(min-width: 1200px) 1140px, (min-width: 992px) 960px, (min-width: 768px) 720px, (min-width: 576px) 540px, 480px" src="assets/img/agil-mindset-lg.jpg" class="d-block w-100" alt="agilMindset | Uma plataforma para dividirmos insights e sugerirmos projetos inovadores">
         <div class="carousel-caption d-none d-sm-block">
             <h1 class="text-dark">agilMindset</h1>
-            <p class="text-dark">Uma plataforma para dividirmos insights e sugerirmos projetos inovadores</p>
+            <p class="text-dark">Ferramentas digitais para ajudar empresas a se destacarem</p>
             <a href="./login.php" class="btn btn-dark" title="Faça Login" rel="next">Login</a>
             <a href="./cadastro.php" class="btn btn-dark" title="Cadastre-se" rel="next">Cadastro</a>
         </div>
         </div>
         <div class="carousel-item">
-        <img srcset="assets/img/banner02-xl.jpg 1140w, assets/img/banner02-lg.jpg 960w, assets/img/banner02-md.jpg 720w, assets/img/banner02-sm.jpg 540w, assets/img/banner02-xs.jpg 480w" sizes="(min-width: 1200px) 1140px, (min-width: 992px) 960px, (min-width: 768px) 720px, (min-width: 576px) 540px, 480px" src="assets/img/banner02-lg.jpg" class="d-block w-100" alt="Pesquise ideias | Busque por ideia através de filtros e categorias">
+        <img srcset="assets/img/ponte-xl.jpg 1140w, assets/img/ponte-lg.jpg 960w, assets/img/ponte-md.jpg 720w, assets/img/ponte-sm.jpg 540w, assets/img/ponte-xs.jpg 480w" sizes="(min-width: 1200px) 1140px, (min-width: 992px) 960px, (min-width: 768px) 720px, (min-width: 576px) 540px, 480px" src="assets/img/ponte-lg.jpg" class="d-block w-100" alt="Pesquise ideias | Busque por ideia através de filtros e categorias">
         <div class="carousel-caption d-none d-sm-block">
-            <h1 class="text-dark">Pesquise ideias</h1>
-            <p class="text-dark">Busque por ideia através de filtros e categorias</p>
-            <a href="./login.php" class="btn btn-dark" title="Faça Login" rel="next">Login</a>
-            <a href="./cadastro.php" class="btn btn-dark" title="Cadastre-se" rel="next">Cadastro</a>
+            <h1 class="text-dark">Aproximamos</h1>
+            <p class="text-dark">Conhecimento de clientes e colaboradores à sua marca</p>
+            <!-- <a href="./login.php" class="btn btn-dark" title="Faça Login" rel="next">Login</a> -->
+            <!-- <a href="./cadastro.php" class="btn btn-dark" title="Cadastre-se" rel="next">Cadastro</a> -->
         </div>
         </div>
         <div class="carousel-item">
-        <img srcset="assets/img/banner03-xl.jpg 1140w, assets/img/banner03-lg.jpg 960w, assets/img/banner03-md.jpg 720w, assets/img/banner03-sm.jpg 540w, assets/img/banner03-xs.jpg 480w" sizes="(min-width: 1200px) 1140px, (min-width: 992px) 960px, (min-width: 768px) 720px, (min-width: 576px) 540px, 480px" src="assets/img/banner03-lg.jpg" class="d-block w-100" alt="Colabore também | Envie novas ideias ou dê sugestões à ideias já cadastradas">
+        <img srcset="assets/img/criacao-de-personas-xl.jpg 1140w, assets/img/criacao-de-personas-lg.jpg 960w, assets/img/criacao-de-personas-md.jpg 720w, assets/img/criacao-de-personas-sm.jpg 540w, assets/img/criacao-de-personas-xs.jpg 480w" sizes="(min-width: 1200px) 1140px, (min-width: 992px) 960px, (min-width: 768px) 720px, (min-width: 576px) 540px, 480px" src="assets/img/criacao-de-personas-lg.jpg" class="d-block w-100" alt="Colabore também | Envie novas ideias ou dê sugestões à ideias já cadastradas">
         <div class="carousel-caption d-none d-sm-block">
-            <h1 class="text-dark">Colabore também</h1>
-            <p class="text-dark">Envie novas ideias ou dê sugestões à ideias já cadastradas</p>
-            <a href="./login.php" class="btn btn-dark" title="Faça Login" rel="next">Login</a>
-            <a href="./cadastro.php" class="btn btn-dark" title="Cadastre-se" rel="next">Cadastro</a>
+            <h1 class="text-dark">Conheça seu público de verdade</h1>
+            <p class="text-dark">Conte com reports dinâmicos e ferramentas de Design Thinking</p>
+            <!-- <a href="./login.php" class="btn btn-dark" title="Faça Login" rel="next">Login</a> -->
+            <!-- <a href="./cadastro.php" class="btn btn-dark" title="Cadastre-se" rel="next">Cadastro</a> -->
         </div>
         </div>
     </article>

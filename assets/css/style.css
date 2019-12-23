@@ -46,7 +46,7 @@ ul {
     color: #000;
 }
 main {
-    margin-top: 60px;
+    margin-top: 56px;
     /* Altura do menu do Bootstrap*/
 }
 .carousel-caption h1 {
@@ -60,7 +60,7 @@ main {
 }
 section header {
     background-color: #c6ff00;
-    border-left: 21px solid #343a40;
+    border-left: 21px solid #192d35;
     font-weight: bolder;
     font-family: 'Comfortaa', sans-serif;
 }
