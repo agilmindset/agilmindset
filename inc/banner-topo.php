@@ -1,9 +1,9 @@
 <section id="carouselPrincipal" class="row carousel slide" data-ride="carousel">
     <article class="carousel-inner">
         <div class="carousel-item active">
-        <img srcset="assets/img/banner01-xl.jpg 1140w, assets/img/banner01-lg.jpg 960w, assets/img/banner01-md.jpg 720w, assets/img/banner01-sm.jpg 540w, assets/img/banner01-xs.jpg 480w" sizes="(min-width: 1200px) 1140px, (min-width: 992px) 960px, (min-width: 768px) 720px, (min-width: 576px) 540px, 480px" src="assets/img/banner01-lg.jpg" class="d-block w-100" alt="agilBox | Uma plataforma para dividirmos insights e sugerirmos projetos inovadores">
+        <img srcset="assets/img/banner01-xl.jpg 1140w, assets/img/banner01-lg.jpg 960w, assets/img/banner01-md.jpg 720w, assets/img/banner01-sm.jpg 540w, assets/img/banner01-xs.jpg 480w" sizes="(min-width: 1200px) 1140px, (min-width: 992px) 960px, (min-width: 768px) 720px, (min-width: 576px) 540px, 480px" src="assets/img/banner01-lg.jpg" class="d-block w-100" alt="agilMindset | Uma plataforma para dividirmos insights e sugerirmos projetos inovadores">
         <div class="carousel-caption d-none d-sm-block">
-            <h1 class="text-dark">agilBox</h1>
+            <h1 class="text-dark">agilMindset</h1>
             <p class="text-dark">Uma plataforma para dividirmos insights e sugerirmos projetos inovadores</p>
             <a href="./login.php" class="btn btn-dark" title="Faça Login" rel="next">Login</a>
             <a href="./cadastro.php" class="btn btn-dark" title="Cadastre-se" rel="next">Cadastro</a>

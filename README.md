@@ -1,4 +1,4 @@
-# agilBox!
+# agilMindset!
 [![No Vulnerabilities](https://snyk.io/test/npm/jquery/3.4.1/badge.svg)](http://djament.com.br/cv.php)
 #### Share ideas, improve processes, empower people, get to know your customers better
 
@@ -60,7 +60,7 @@
 
 ### Tech
 #
-agilBox current release uses simple languages due to the fact that it is a MVP version:
+agilMindset current release uses simple languages due to the fact that it is a MVP version:
 
 * HTML5
 * CSS3
