@@ -139,3 +139,7 @@ section header p,
         font-size: 1.5em;
     }
 }
+.erro-404 {
+    background: #192d35;
+    color: #fff;
+}
