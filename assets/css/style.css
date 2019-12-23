@@ -30,7 +30,8 @@ a {
     color: inherit;
     transition: all 0.6s ease-in;
 }
-a:hover {
+a:hover,
+strong {
     color: #ccff00;
 }
 a.navbar-brand.text-white:hover {
@@ -58,9 +59,14 @@ ul {
     transition: all 0.3s ease-in-out;
 }
 .btn-dark:hover,
-.btn-dark[aria-expanded="true"] {
+.btn-dark[aria-expanded="true"],
+.banner-caption .btn-dark {
     background-color: #c6ff00;
     color: #000;
+}
+.banner-caption .btn-dark:hover {
+    background-color: #343a40;
+    color: #fff;
 }
 main {
     margin-top: 56px;
@@ -114,9 +120,15 @@ section header p,
 }
 @media only screen and (min-width: 768px) {
     .banner-caption h1 {
-        font-size: 4em;
+        font-size: 3.6em;
+    }
+    .carousel-item:first-child .banner-caption h1 {
+        font-size: 5em;
     }
     .banner-caption p{
         font-size: 1.25em;
+    }
+    .carousel-item:first-child .banner-caption p{
+        font-size: 1.5em;
     }
 }
