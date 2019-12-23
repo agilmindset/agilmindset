@@ -1,0 +1,4 @@
+##### LOCAWEB - NAO REMOVER #####
+AddHandler php71-script .php
+suPHP_ConfigPath /home/agilmindset1/
+##### LOCAWEB - NAO REMOVER #####
