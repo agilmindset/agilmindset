@@ -2,28 +2,36 @@
 <html lang="pt-BR" prefix="og: http://ogp.me/ns#">
 <head>
 
-    <!-- CONFIGURAÇÕES GERAIS -->
+    <!-- Configurações Gerais -->
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, minimum-scale=1.0">
+    <!-- /Configurações Gerais -->
 
-    <!-- META DADOS -->
+    <!-- Meta Dados Genéricos -->
     <title><?= $tituloPagina ?></title>
     <meta name="title" content="<?= $tituloPagina ?>">
     <meta name="description" content="<?= $tituloPagina . "" . $descricaoPagina ?>">
+    <!-- /Meta Dados Genéricos -->
 
-    <!-- CACHE -->
+    <!-- Cache -->
     <meta http-equiv="Cache-control" content="public">
     <meta http-equiv="cache-control" content="max-age=0">
     <meta name="revisit-after" content="7 days">
     <meta http-equiv="expires" content="0">
+	<meta name="identifier-URL" content="https://agilmindset/index.php">
+	<meta name="url" content="https://agilmindset/index.php">
+	<meta property="og:url" content="https://agilmindset/index.php">
+	<link rel="canonical" href="https://agilmindset/">
+    <!-- /Cache -->
 
-    <!-- MANIFESTO -->
+    <!-- Manifesto Json -->
     <link rel="manifest" href="./manifest.json">
+    <!-- /Manifesto Json -->
 
-    <!-- SCHEMA.ORG -->
+    <!-- Schema.org Json -->
     <script type="application/ld+json">
         {
         "@context": "http://schema.org",
@@ -66,15 +74,58 @@
         }]
         }
     </script>
+    <!-- /Schema.org Json -->
 
-    <!-- ESTILOS -->
+    <!-- OG Meta Data -->
+    <meta property="og:title" content="<?= $tituloPagina ?>">
+    <meta property="og:description" content="<?= $tituloPagina . "" . $descricaoPagina ?>">
+	<meta name="abstract" content="<?= $tituloPagina ?>">
+	<meta property="og:site_name" content="<?= $tituloPagina ?>">
+	<meta property="og:locale" content="pt-BR">
+	<meta name="og:locality" content="São Paulo">
+	<meta name="og:region" content="SP">
+	<meta name="og:country-name" content="BR">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://agilmindset/assets/favicons/favicon-128x128.png">
+	<meta property="og:image:alt" content="<?= $tituloPagina ?>">
+    <meta property="og:image:url" content="https://agilmindset/assets/favicons/favicon-128x128.png">
+    <meta property="og:image:secure_url" content="https://agilmindset/assets/favicons/favicon-128x128.png">
+    <meta property="og:image:type" content="img/png">
+    <meta property="og:image:width" content="128">
+    <meta property="og:image:height" content="128">
+	<meta name="robots" content="index,follow">
+    <!-- /OG Meta Data -->
+
+    <!-- Dados de Autoria -->
+	<meta name="author" content="Marcelo Diament, Djament Comunicação">
+	<meta name="contact" content="contato@djament.com.br">
+	<meta name="reply-to" content="contato@djament.com.br">
+	<meta name="copyright" content="Djament">
+	<meta name="web_author" content="Djament Comunicação">
+    <!-- /Dados de Autoria -->
+
+    <!-- Dados para mobile app -->
+	<meta name="rating" content="general">
+	<meta name="theme-color" content="#8C654C">
+	<meta name="msapplication-TileColor" content="#8C654C">
+	<meta name="application-name" content="<?= $tituloPagina ?>">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="<?= $tituloPagina ?>">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- /Dados para mobile app -->
+
+    <!-- Estilos -->
     <link rel="pre-load" href="assets/css/style.css" />
+    <link rel="pre-render" href="assets/css/style.css" />
     <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link async href="https://fonts.googleapis.com/css?family=Comfortaa:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="msapplication-TileImage" content="./assets/favicons/tile.png">
+    <!-- /Estilos -->
+    
     <!-- Favicons -->
+    <meta name="msapplication-TileImage" content="./assets/favicons/tile.png">
     <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicons/favicon-512x512.png">
     <link rel="icon" type="image/png" sizes="228x228" href="./assets/favicons/favicon-228x228.png">
     <link rel="shortcut icon" sizes="196x196" href="./assets/favicons/favicon-196.png">
