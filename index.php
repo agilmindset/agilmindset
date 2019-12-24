@@ -1,4 +1,4 @@
-<?php $tituloPagina = "agil mindset"; ?>
+<?php $tituloPagina = "agil mindset | inovação através do engajamento e da colaboração"; ?>
 <?php $descricaoPagina = "Compartilhe ideias, desenvolva processos, empodere colaboradores, conheça mais a fundo seus usuários - comunique-se, identifique oportunidades e gere valor e inovação"; ?>
 <?php require_once("./inc/head.php"); ?>
 

@@ -37,7 +37,7 @@
         "@context": "http://schema.org",
         "@type": [
             "Organization",
-            "Consultancy"
+            "Project"
         ],
         "additionalType": [
             "http://www.productontology.org/doc/Project",
