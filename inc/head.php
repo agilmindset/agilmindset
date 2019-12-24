@@ -106,8 +106,8 @@
 
     <!-- Dados para mobile app -->
 	<meta name="rating" content="general">
-	<meta name="theme-color" content="#8C654C">
-	<meta name="msapplication-TileColor" content="#8C654C">
+	<meta name="theme-color" content="#adff2f">
+	<meta name="msapplication-TileColor" content="#adff2f">
 	<meta name="application-name" content="<?= $tituloPagina ?>">
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -118,7 +118,7 @@
     <!-- Estilos -->
     <link rel="pre-load" href="assets/css/style.css" />
     <link rel="pre-render" href="assets/css/style.css" />
-    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link async href="https://fonts.googleapis.com/css?family=Comfortaa:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">

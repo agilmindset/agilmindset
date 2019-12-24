@@ -1,9 +1,9 @@
 {
-  "name": "agil mindset - uma iniciativa Djament Comunicação",
+  "name": "Agil Mindset | powered by Djament",
   "short_name": "agil mindset",
   "start_url": "https://agilmindset.com",
   "description": "Compartilhe ideias, desenvolva processos, empodere colaboradores, conheça mais a fundo seus usuários",
-  "background_color": "#343a40",
+  "background_color": "#adff2f",
   "theme_color": "#adff2f",
   "display": "standalone",
   "icons": [{

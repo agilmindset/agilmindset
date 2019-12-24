@@ -4,7 +4,7 @@
             agil<span class="box">mindset</span> <small class="d-none d-sm-inline">| engaging processes</small>
         </a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#menuTopo" aria-controls="menuTopo" aria-expanded="false" aria-label="Toggle navigation" title="Acessar submenu">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="menuTopo">
             <ul class="navbar-nav ml-auto">
