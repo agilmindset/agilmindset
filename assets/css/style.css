@@ -59,7 +59,8 @@ ul {
 }
 .btn-dark:hover,
 .btn-dark[aria-expanded="true"],
-.banner-caption .btn-dark {
+.banner-caption .btn-dark,
+.erro-404 .btn {
     background-color: #c6ff00;
     color: #000;
 }
@@ -124,7 +125,13 @@ section header p,
     display: -webkit-box;
     white-space: wrap;
 }
+.erro-404 .box{
+    color: #343a40;
+}
 @media only screen and (min-width: 768px) {
+    main {
+        min-height: calc(100vh - 348px);
+    }
     .banner-caption h1,
     .banner-caption h4 {
         font-size: 3.6em;
@@ -138,8 +145,4 @@ section header p,
     #carouselPrincipal .carousel-item:first-child .banner-caption p{
         font-size: 1.5em;
     }
-}
-.erro-404 {
-    background: #192d35;
-    color: #fff;
 }

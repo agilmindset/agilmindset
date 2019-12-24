@@ -12,5 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link async href="https://fonts.googleapis.com/css?family=Comfortaa:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/img/favicon.svg" sizes="48x48"/>
+    <link rel="icon" href="assets/img/favicon-48x48.png" sizes="48x48"/>
+    <link rel="icon" href="assets/img/favicon-72x72.png" sizes="72x72"/>
+    <link rel="icon" href="assets/img/favicon-512x512.png" sizes="512x512"/>
 </head>
