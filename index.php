@@ -1,5 +1,5 @@
-<?php $tituloPagina = "agil mindset | Welcome!"; ?>
-<?php $descricaoPagina = "Share ideas, improve processes, empower people, get to know your customers better"; ?>
+<?php $tituloPagina = "agil mindset"; ?>
+<?php $descricaoPagina = "Compartilhe ideias, desenvolva processos, empodere colaboradores, conheça mais a fundo seus usuários - comunique-se, identifique oportunidades e gere valor e inovação"; ?>
 <?php require_once("./inc/head.php"); ?>
 
 <body>
