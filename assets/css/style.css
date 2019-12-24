@@ -2,9 +2,10 @@
 * CORES CARTELA DEFAULT 
 * 
 * CORES:
-* primária: #c6ff00 (verde vivo | bootstrap: - | css: - )
-* complementar: #e4ffb2 (verde bebê | bootstrap: - | css: - )
+* primária: #adff2f (verde vivo | bootstrap: - | css: GreenYellow )
+* complementar: #98fb98 (verde bebê | bootstrap: - | css: PaleGreen )
 * secundária: #192d35 (azul marinho | bootstrap: - | css: - )
+* contraste: #ff00ff (magenta | bootstrap: - | css: magenta )
 * 
 * ESCALAS DE CINZA:
 * branco: #fff (branco | bootstrap: white | css: white)
@@ -12,7 +13,7 @@
 * textos corpo: #212529 (cinza escuro | bootstrap: default | css: - )
 * bg contraste PB (bg banner): #273238 (grafite esverdeado | bootstrap: - | css: - )
 * bg escuro (header, footer, button): #343a40 (chumbo | bootstrap: dark | css: - )
-* preto: #000 (preto | bootstrap: black | css: white)
+* preto: #000 (preto | bootstrap: black | css: black)
 * 
 **/
 * {
@@ -32,13 +33,13 @@ a {
 }
 a:hover,
 strong {
-    color: #ccff00;
+    color: #adff2f;
 }
 a.navbar-brand.text-white:hover {
-    color: #ccff00 !important;
+    color: #adff2f !important;
 }
 span.box {
-    color: #ccff00;
+    color: #adff2f;
     font-weight: bolder;
     transition: all 0.6s ease-in;
 }
@@ -49,7 +50,7 @@ a span.box:hover {
     color: #fff;
 }
 a.nav-link.text-white:hover {
-    color: #ccff00 !important;
+    color: #adff2f !important;
 }
 ul {
     list-style: none;
@@ -61,7 +62,7 @@ ul {
 .btn-dark[aria-expanded="true"],
 .banner-caption .btn-dark,
 .erro-404 .btn {
-    background-color: #c6ff00;
+    background-color: #adff2f;
     color: #000;
 }
 .banner-caption .btn-dark:hover {
@@ -73,7 +74,7 @@ main {
     /* Altura do menu do Bootstrap*/
 }
 .carousel-item {
-    /* background-color: #e4ffb2; */
+    /* background-color: #98fb98; */
     color: #fff;
     background-color: #192d35;
 }
@@ -97,13 +98,13 @@ main {
     min-width: 240px;
 }
 section header {
-    background-color: #c6ff00;
+    background-color: #adff2f;
     border-left: 21px solid #192d35;
     font-weight: bolder;
     font-family: 'Comfortaa', sans-serif;
 }
 .descricaoVitrineHome {
-    background-color: #c6ff00;
+    background-color: #adff2f;
 }
 section header p,
 .descricaoVitrineHome p {
