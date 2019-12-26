@@ -27,6 +27,7 @@ a {
     color: inherit;
     transition: all 0.6s ease-in;
 }
+i.fas.fa-bars,
 a:hover,
 strong {
     color: #adff2f;
