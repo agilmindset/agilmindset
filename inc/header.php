@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="menuTopo">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ml-auto">
-                    <a class="nav-link text-white" href="./cadastrar.php" title="Cadastre-se">Cadastre-se</a>
+                    <a class="nav-link text-white" href="./cadastrar-usuario.php" title="Cadastre-se">Cadastre-se</a>
                 </li>
                 <li class="nav-item ml-auto">
                     <a class="nav-link text-white" href="./login.php" title="Faça Login">Login</a>

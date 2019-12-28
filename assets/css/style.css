@@ -60,7 +60,8 @@ ul {
 .btn-dark:hover,
 .btn-dark[aria-expanded="true"],
 .banner-caption .btn-dark,
-.erro-404 .btn {
+.erro-404 .btn,
+.formCadastroSection .btn  {
     background-color: #adff2f;
     color: #000;
 }
@@ -129,12 +130,23 @@ form a[target="_blank"] {
     color: #192d35;
     font-weight: bolder;
 }
-form a[target="_blank"]:hover {
-    color: #343a40;
+form a[target="_blank"]:hover, 
+p a:hover:not(.btn) {
+    color: #000;
     background-color: #adff2f;
+    font-weight: bolder;
 }
-.erro-404 .box{
+p a[target="_blank"]:hover:not(.btn) {
+    color: #000;
+    background-color: #ff00ff;
+    font-weight: bolder;
+}
+.erro-404 .box,
+.formCadastroSection .box {
     color: #343a40;
+}
+.formCadastroSection article:first-child p {
+    font-size: 1.25rem;
 }
 @media only screen and (min-width: 768px) {
     main {
