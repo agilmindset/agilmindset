@@ -32,7 +32,9 @@ a:hover,
 strong {
     color: #adff2f;
 }
-a.navbar-brand.text-white:hover {
+a.navbar-brand.text-white:hover,
+a.nav-link.text-white:hover,
+footer h4 {
     color: #adff2f !important;
 }
 span.box {
@@ -46,9 +48,9 @@ a.navbar-brand.text-white:hover span.box{
 a span.box:hover {
     color: #fff;
 }
-a.nav-link.text-white:hover {
+/* a.nav-link.text-white:hover {
     color: #adff2f !important;
-}
+} */
 ul {
     list-style: none;
 }

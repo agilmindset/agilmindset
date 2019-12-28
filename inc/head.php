@@ -21,14 +21,17 @@
     <meta http-equiv="cache-control" content="max-age=0">
     <meta name="revisit-after" content="7 days">
     <meta http-equiv="expires" content="0">
-	<meta name="identifier-URL" content="https://agilmindset/index.php">
-	<meta name="url" content="https://agilmindset/index.php">
-	<meta property="og:url" content="https://agilmindset/index.php">
-	<link rel="canonical" href="https://agilmindset/">
+	<meta name="identifier-URL" content="https://agilmindset.com/index.php">
+	<meta name="url" content="https://agilmindset.com/index.php">
+	<meta property="og:url" content="https://agilmindset.com/index.php">
+	<link rel="canonical" href="https://agilmindset.com/">
     <!-- /Cache -->
 
     <!-- Manifesto Json -->
     <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="application-name" content="agil mindset">
+    <link rel="icon" sizes="512x512" href="./assets/favicons/favicon-512x512.png">
     <!-- /Manifesto Json -->
 
     <!-- Schema.org Json -->
@@ -64,7 +67,7 @@
             "@type": "Thing",
             "name": "agil mindset"
         },
-        "sameAs": ["https://www.facebook.com/djamentcomunicacao", "https://www.instagram.com/djamentcomunicacao/"],
+        "sameAs": ["https://www.facebook.com/agilmindset", "https://www.instagram.com/agilmindset/", "https://www.linkedin.com/company/agilmindset/"],
         "contactPoint": [{
             "@type": "ContactPoint",
             "telephone": "+55-11-97605-2723",
@@ -76,9 +79,9 @@
     </script>
     <!-- /Schema.org Json -->
 
-    <!-- OG Meta Data -->
+    <!-- OG Meta Data e outras meta data -->
     <meta property="og:title" content="<?= $tituloPagina ?>">
-    <meta property="og:description" content="<?= $tituloPagina . "" . $descricaoPagina ?>">
+    <meta property="og:description" content="<?= $descricaoPagina ?>">
 	<meta name="abstract" content="<?= $tituloPagina ?>">
 	<meta property="og:site_name" content="<?= $tituloPagina ?>">
 	<meta property="og:locale" content="pt-BR">
@@ -86,15 +89,15 @@
 	<meta name="og:region" content="SP">
 	<meta name="og:country-name" content="BR">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="https://agilmindset/assets/favicons/favicon-128x128.png">
+	<meta property="og:image" content="https://agilmindset.com/assets/favicons/favicon-128x128.png">
 	<meta property="og:image:alt" content="<?= $tituloPagina ?>">
-    <meta property="og:image:url" content="https://agilmindset/assets/favicons/favicon-128x128.png">
-    <meta property="og:image:secure_url" content="https://agilmindset/assets/favicons/favicon-128x128.png">
+    <meta property="og:image:url" content="https://agilmindset.com/assets/favicons/favicon-128x128.png">
+    <meta property="og:image:secure_url" content="https://agilmindset.com/assets/favicons/favicon-128x128.png">
     <meta property="og:image:type" content="img/png">
     <meta property="og:image:width" content="128">
     <meta property="og:image:height" content="128">
 	<meta name="robots" content="index,follow">
-    <!-- /OG Meta Data -->
+    <!-- /OG Meta Data e outras meta data -->
 
     <!-- Dados de Autoria -->
 	<meta name="author" content="Marcelo Diament, Djament Comunicação">

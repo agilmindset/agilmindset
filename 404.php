@@ -1,5 +1,5 @@
-<?php $tituloPagina = "agil mindset | Welcome!"; ?>
-<?php $descricaoPagina = "Share ideas, improve processes, empower people, get to know your customers better"; ?>
+<?php $tituloPagina = "agil mindset | Ops..."; ?>
+<?php $descricaoPagina = "Erro 404 | Página não encontrada, desculpe."; ?>
 <?php require_once("./inc/head.php"); ?>
 
 <body>
@@ -7,7 +7,7 @@
     <main class="container-fluid erro-404">
         <section class="container-fluid mx-0 p-5">
             <article class="d-flex flex-wrap flex-md-nowrap align-items-center p-0">
-                <img srcset="assets/img/erro-404.jpg 480w" sizes="480px" src="assets/img/erro-404.jpg" class="col-12 col-sm-5 col-md-3 px-0 pl-md-0 pr-md-3 banner-img" alt="agilMindset | Uma plataforma para dividirmos insights e sugerirmos projetos inovadores">
+                <img srcset="assets/img/erro-404.jpg 480w" sizes="480px" src="./assets/img/erro-404.jpg" class="col-12 col-sm-5 col-md-3 px-0 pl-md-0 pr-md-3 banner-img" alt="agilMindset | Erro 404 - Estamos trabalhando para resolvermos a questão.">
                 <div class="col-12 col-sm-7 col-md-9 p-4">
                     <h1 class="">Ops!<br/><span class="box">Nos desculpe...</span></h1>
                     <p class="mt-5">Parece que cometemos algum engano, infelizmente a <b>página não foi encontrada</b>... Já estamos trabalhando para identificar o que houve!</p>
