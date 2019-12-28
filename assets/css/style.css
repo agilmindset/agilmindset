@@ -27,9 +27,9 @@ a {
     color: inherit;
     transition: all 0.6s ease-in;
 }
+strong,
 i.fas.fa-bars,
-a:hover,
-strong {
+a:hover {
     color: #adff2f;
 }
 a.navbar-brand.text-white:hover,
@@ -124,6 +124,14 @@ section header p,
     -webkit-box-orient: vertical;  
     display: -webkit-box;
     white-space: wrap;
+}
+form a[target="_blank"] {
+    color: #192d35;
+    font-weight: bolder;
+}
+form a[target="_blank"]:hover {
+    color: #343a40;
+    background-color: #adff2f;
 }
 .erro-404 .box{
     color: #343a40;

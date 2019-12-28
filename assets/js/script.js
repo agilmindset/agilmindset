@@ -11,7 +11,7 @@ $(document).ready(function(){
         )
         this.setTimeout(() => {
             console.log(
-                '\n\n%cATENÇÃO:\n\n%cEsta é uma versão beta, publicada exclusivamente para testes. Sugestões e críticas são sempre muito bem vindas!\n\n\n',
+                '\n\n%cATENÇÃO:\n\n\t%cEsta é uma versão beta, publicada exclusivamente para testes.\n\tSugestões e críticas são sempre muito bem vindas!\n\n\n',
                 'background:#ff00ff; color: #ffffff; font-size: 64px;font-family: monospace;',
                 'background:#f8f9fa; color: #ff00ff; font-size: 64px;font-family: monospace;'
             )
