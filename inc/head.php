@@ -142,9 +142,11 @@
     <link async defer rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/favicons/apple-touch-icon-precomposed-114x114.png">
     <link async defer rel="icon" type="image/png" sizes="96x96" href="./assets/favicons/favicon-96x96.png">
     <link async defer rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/favicons/apple-touch-icon-precomposed-76x76.png">
+    <link async defer rel="icon" type="image/png" sizes="72x72" href="./assets/favicons/favicon-72x72.png">
     <link async defer rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/favicons/apple-touch-icon-precomposed-72x72.png">
     <link async defer rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/favicons/apple-touch-icon-precomposed-60x60.png">
     <link async defer rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/favicons/apple-touch-icon-precomposed-57x57.png">
+    <link async defer rel="icon" type="image/png" sizes="48x48" href="./assets/favicons/favicon-48x48.png">
     <link async defer rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
     <link async defer rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
     <!-- /Favicons -->

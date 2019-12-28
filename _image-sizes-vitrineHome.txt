@@ -1,0 +1,88 @@
+imagens bannerTopo:
+agil-mindset-150x150.jpg 150px
+agil-mindset-200x200.jpg (min-width: 200px) 200px
+agil-mindset-250x250.jpg (min-width: 250px) 250px
+agil-mindset-300x300.jpg (min-width: 300px) 300px
+agil-mindset-350x350.jpg (min-width: 350px) 350px
+agil-mindset-400x400.jpg (min-width: 400px) 400px
+agil-mindset-450x450.jpg (min-width: 450px) 450px
+agil-mindset-500x500.jpg (min-width: 500px) 500px
+agil-mindset-550x550.jpg (min-width: 550px) 550px
+agil-mindset-574x574.jpg (min-width: 574px) 574px
+agil-mindset-267x267.jpg (min-width: 640px) 267px
+agil-mindset-300x300.jpg (min-width: 720px) 300px
+agil-mindset-224x224.jpg (min-width: 960px) 224px
+agil-mindset-254x254.jpg (min-width: 1080px) 254px
+agil-mindset-304x304.jpg (min-width: 1280px) 304px
+agil-mindset-344x344.jpg (min-width: 1440px) 344px
+agil-mindset-464x464.jpg (min-width: 1920px) 464px
+agil-mindset-484x484.jpg (min-width: 2000px) 484px
+agil-mindset-614x614.jpg (min-width: 2500px) 614px
+
+
+imagens vitrineHome:
+-150x100 (150)
+-215x143 (246)
+-249x166 (1140)
+-255x170 (576)
+-272x181 (1280)
+-287x191 (640)
+-302x201 (1400)
+-323x215
+-326x217 (360)
+-327x218 (720)
+-372x248 (810)
+-432x288 (1920)
+-446x297 (480)
+-540x360 (574)
+-587x391 (2000)
+-926x617 (960)
+-1031x687 (1080)
+
+
+
+TEMPLATE ATRIBUTOS SRCSET E SIZES (TAG IMG)
+
+srcset="
+    ./assets/img/agil-mindset-150x150.jpg 150w,
+    ./assets/img/agil-mindset-200x200.jpg 200w,
+    ./assets/img/agil-mindset-250x250.jpg 250w,
+    ./assets/img/agil-mindset-300x300.jpg 300w,
+    ./assets/img/agil-mindset-350x350.jpg 350w,
+    ./assets/img/agil-mindset-400x400.jpg 400w,
+    ./assets/img/agil-mindset-450x450.jpg 450w,
+    ./assets/img/agil-mindset-500x500.jpg 500w,
+    ./assets/img/agil-mindset-550x550.jpg 550w,
+    ./assets/img/agil-mindset-574x574.jpg 574w,
+    ./assets/img/agil-mindset-267x267.jpg 267w,
+    ./assets/img/agil-mindset-300x300.jpg 300w,
+    ./assets/img/agil-mindset-224x224.jpg 224w,
+    ./assets/img/agil-mindset-254x254.jpg 254w,
+    ./assets/img/agil-mindset-304x304.jpg 304w,
+    ./assets/img/agil-mindset-344x344.jpg 344w,
+    ./assets/img/agil-mindset-464x464.jpg 464w,
+    ./assets/img/agil-mindset-484x484.jpg 484w,
+    ./assets/img/agil-mindset-614x614.jpg 614w
+"
+sizes="
+    (min-width: 200px) 200px,
+    (min-width: 250px) 250px,
+    (min-width: 300px) 300px,
+    (min-width: 350px) 350px,
+    (min-width: 400px) 400px,
+    (min-width: 450px) 450px,
+    (min-width: 500px) 500px
+    (min-width: 550px) 550px,
+    (min-width: 574px) 574px,
+    (min-width: 640px) 267px,
+    (min-width: 720px) 300px,
+    (min-width: 960px) 224px,
+    (min-width: 1080px) 254px,
+    (min-width: 1280px) 304px
+    (min-width: 1440px) 344px,
+    (min-width: 1920px) 464px,
+    (min-width: 2000px) 484px,
+    (min-width: 2500px) 614px,
+    150px
+"
+

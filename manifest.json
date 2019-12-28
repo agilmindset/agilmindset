@@ -12,6 +12,11 @@
   "display": "standalone",
   "icons": [
     {
+      "src": "https://agilmindset.com/assets/favicons/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "img/png"
+    },
+    {
       "src": "https://agilmindset.com/assets/favicons/favicon-16x16.png",
       "sizes": "16x16",
       "type": "img/png"
@@ -136,11 +141,6 @@
       "src": "https://agilmindset.com/assets/favicons/console-480x480.jpg",
       "sizes": "480x480",
       "type": "img/jpg"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/favicon-512x512.png",
-      "sizes": "512x512",
-      "type": "img/png"
     }
   ]
 }
