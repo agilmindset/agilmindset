@@ -13,18 +13,18 @@
     <!-- Meta Dados Genéricos -->
     <title><?= $tituloPagina ?></title>
     <meta name="title" content="<?= $tituloPagina ?>">
-    <meta name="description" content="<?= $tituloPagina . "" . $descricaoPagina ?>">
+    <meta name="description" content="<?= $tituloPagina . " - " . $descricaoPagina ?>">
     <!-- /Meta Dados Genéricos -->
 
     <!-- Cache -->
     <meta http-equiv="Cache-control" content="public">
-    <meta http-equiv="cache-control" content="max-age=0">
-    <meta name="revisit-after" content="7 days">
-    <meta http-equiv="expires" content="0">
-	<meta name="identifier-URL" content="https://agilmindset.com/index.php">
-	<meta name="url" content="https://agilmindset.com/index.php">
-	<meta property="og:url" content="https://agilmindset.com/index.php">
-	<link rel="canonical" href="https://agilmindset.com/">
+    <meta http-equiv="cache-control" content="max-age=31536000">
+    <meta name="revisit-after" content="1 year">
+    <meta http-equiv="expires" content="1 year">
+	<meta name="identifier-URL" content="<?= $urlPagina ?>">
+	<meta name="url" content="<?= $urlPagina ?>">
+	<meta property="og:url" content="<?= $urlPagina ?>">
+	<link rel="canonical" href="<?= $urlAmigavelPagina ?>">
     <!-- /Cache -->
 
     <!-- Manifesto Json -->
@@ -128,7 +128,7 @@
     <!-- /Estilos -->
     
     <!-- Favicons -->
-    <meta name="msapplication-TileImage" content="./assets/favicons/ms-icon-144x144.png">
+    <meta async defer name="msapplication-TileImage" content="./assets/favicons/ms-icon-144x144.png">
     <link async defer rel="icon" type="image/png" sizes="512x512" href="./assets/favicons/favicon-512x512.png">
     <link async defer rel="icon" type="image/png" sizes="228x228" href="./assets/favicons/favicon-228x228.png">
     <link async defer rel="shortcut icon" sizes="196x196" href="./assets/favicons/favicon-196.png">

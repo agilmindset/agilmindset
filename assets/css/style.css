@@ -27,10 +27,15 @@ a {
     color: inherit;
     transition: all 0.6s ease-in;
 }
+p a,
+small a {
+    text-decoration: underline;
+}
 strong,
 i.fas.fa-bars,
 a:hover {
     color: #adff2f;
+    text-decoration: none;
 }
 a.navbar-brand.text-white:hover,
 a.nav-link.text-white:hover,
@@ -129,17 +134,25 @@ section header p,
 form a[target="_blank"] {
     color: #192d35;
     font-weight: bolder;
-}
-form a[target="_blank"]:hover, 
+} 
 p a:hover:not(.btn) {
     color: #000;
     background-color: #adff2f;
     font-weight: bolder;
 }
+form a[target="_blank"]:hover,
 p a[target="_blank"]:hover:not(.btn) {
     color: #000;
     background-color: #ff00ff;
     font-weight: bolder;
+    text-decoration: none;
+}
+#bannerSecundario h4 {
+    font-size: 1.8em;
+}
+.erro-404,
+.formCadastroSection {
+    min-height: calc(100vh - 324px);
 }
 .erro-404 .box,
 .formCadastroSection .box {
@@ -147,6 +160,15 @@ p a[target="_blank"]:hover:not(.btn) {
 }
 .formCadastroSection article:first-child p {
     font-size: 1.25rem;
+}
+footer a[target="_blank"]:hover {
+    color: #ff00ff;
+    text-decoration: none;
+}
+a#djamentCopyright:hover {
+    color: #19ebfa;
+    background-color: transparent;
+    text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
     main {
