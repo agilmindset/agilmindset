@@ -31,7 +31,7 @@
     <link rel="manifest" href="./manifest.json">
     <link rel="manifest" href="./manifest.webmanifest">
     <meta name="application-name" content="agil mindset">
-    <link rel="icon" sizes="512x512" href="./assets/favicons/favicon-512x512.png">
+    <link rel="icon" sizes="16x16" href="./assets/favicons/favicon.ico">
     <!-- /Manifesto Json -->
 
     <!-- Schema.org Json -->
