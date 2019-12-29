@@ -65,7 +65,7 @@ $urlAmigavelPagina = "politicas-de-privacidade";
                     </article>
                     <article class="col-12 my-3">
                         <h3 class="text-center mt-1 mb-4">Exclusão de Conta</h3>
-                        <p class="col-12 mt-3">É possível solicitar a exclusão - definitiva - dos <b>dados pessoais</b>, a <b>agilmindset</b> a fará conforme a Lei 12.965/2014, respeitando o prazo mínimo legal de armazenamento de informações. Para solicitar a exclusão é necessário <a href="mailto:webmaster@agilmindset.com?subject=agilmindset%20-%20Solicitação%20de%20exclusão%20de%20cadastro%20-%20<?php echo date('d/m/Y'); ?>" rel="noopener noreferrer" target="_blank" title="Enviar email para webmaster@agilmindset.com">entre em contato conosco</a>.</p>
+                        <p class="col-12 mt-3">É possível solicitar a exclusão - definitiva - dos <b>dados pessoais</b>, a <b>agilmindset</b> a fará conforme a Lei 12.965/2014, respeitando o prazo mínimo legal de armazenamento de informações. Para solicitar a exclusão é necessário solicitar à pessoa resposável pela aquisição da plataforma (é possível fazer isso por meio da própria plataforma). Em caso de dificuldades, por favor, <a href="mailto:webmaster@agilmindset.com?subject=agilmindset%20-%20Solicitação%20de%20exclusão%20de%20cadastro%20-%20<?php echo date('d/m/Y'); ?>" rel="noopener noreferrer" target="_blank" title="Enviar email para webmaster@agilmindset.com">entre em contato conosco</a>.</p>
                         <p class="col-12 mb-3">Vale ressaltar que dados não pessoais coletados (respostas à pesquisas e quizes, por exemplo), serão mantidos em nossa base de dados.</p>
                     </article>
                     <article class="col-12 my-3">

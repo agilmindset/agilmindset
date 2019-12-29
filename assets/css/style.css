@@ -170,6 +170,15 @@ p a[target="_blank"]:hover:not(.btn) {
 .formLoginSection article:first-child p {
     font-size: 1.25rem;
 }
+.bg-pink {
+    background-color: #ff00ff;
+    color: black;
+}
+.bg-pink p a:hover, 
+.bg-pink p a[target="_blank"]:hover:not(.btn) {
+    color: #000;
+    background-color: #adff2f;
+}
 footer a[target="_blank"]:hover {
     color: #ff00ff;
     text-decoration: none;
