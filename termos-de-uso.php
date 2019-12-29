@@ -2,7 +2,7 @@
 $tituloPagina = "agil mindset | Termos de Uso";
 $descricaoPagina = "Entenda os termos de uso na plataforma agilmindset.";
 $urlPagina = "https://agilmindset.com/termos-de-uso.php";
-$urlAmigavelPagina = "https://agilmindset.com/termos-de-uso";
+$urlAmigavelPagina = "termos-de-uso";
 ?>
 <?php require_once("./inc/head.php"); ?>
 

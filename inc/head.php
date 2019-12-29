@@ -23,8 +23,8 @@
     <meta http-equiv="expires" content="1 year">
 	<meta name="identifier-URL" content="<?= $urlPagina ?>">
 	<meta name="url" content="<?= $urlPagina ?>">
-	<meta property="og:url" content="<?= $urlPagina ?>">
-	<link rel="canonical" href="<?= $urlAmigavelPagina ?>">
+    <meta property="og:url" content="<?= $urlPagina ?>">
+	<link rel="canonical" href="https://agilmindset.com/<?= $urlAmigavelPagina ?>">
     <!-- /Cache -->
 
     <!-- Manifesto Json -->

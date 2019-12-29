@@ -2,7 +2,7 @@
 $tituloPagina = "agil mindset | Políticas de Privacidade";
 $descricaoPagina = "Entenda como tratamos seus dados na agilmindset.";
 $urlPagina = "https://agilmindset.com/politicas-de-privacidade.php";
-$urlAmigavelPagina = "https://agilmindset.com/politicas-de-privacidade";
+$urlAmigavelPagina = "politicas-de-privacidade";
 ?>
 <?php require_once("./inc/head.php"); ?>
 

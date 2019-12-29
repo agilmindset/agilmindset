@@ -2,7 +2,7 @@
 $tituloPagina = "agil mindset | Login de Usuário";
 $descricaoPagina = "Faça Login e acesse todas as ferramentas da agil mindset em uma versão de demonstração";
 $urlPagina = "https://agilmindset.com/login.php";
-$urlAmigavelPagina = "https://agilmindset.com/login";
+$urlAmigavelPagina = "login";
 ?>
 <?php require_once("./inc/head.php"); ?>
 
