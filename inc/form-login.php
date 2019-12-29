@@ -12,12 +12,12 @@
         <div class="form-group col-12 col-sm-6">
           <label for="inputEmail">Email</label>
           <input type="text" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp" placeholder="fulano@dasilva.com" required tab-index="0" autocomplete="off" autofocus>
-          <small id="emailHelp" class="form-text text-secondary">Insira seu Email</small>
+          <small id="emailHelp" class="form-text text-secondary">Insira seu email</small>
         </div>
         <div class="form-group col-12 col-sm-6">
           <label for="inputSenha">Senha</label>
           <input type="password" class="form-control" id="inputSenha" name="inputSenha" aria-describedby="senhaHelp" placeholder="********" required tab-index="1" autocomplete="off">
-          <small id="senhaHelp" class="form-text text-secondary">Insira sua senha</small>
+          <small id="senhaHelp" class="form-text text-secondary">Clique <a href="mailto:webmaster@agilmindset.com?Subject=agilmindset%20-%20Redefinir%20senha%20-%20<?php echo date('d/m/Y') ?>" target="_blank" rel="noopener, noreferer" title="Enviar email solicitando nova senha">aqui</a> se esqueceu a senha.</small>
         </div>
       </div>
       <div class="form-group form-check">
