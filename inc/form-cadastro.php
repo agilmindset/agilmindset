@@ -7,7 +7,7 @@
     </div>
   </article>
   <article class="col-12 row mx-auto px-4">
-    <form class="my-3 mx-auto" action="" method="post" autocomplete="on" id="formCadastroUsuario">
+    <form class="mt-0 mb-3 mx-auto" action="" method="post" autocomplete="on" id="formCadastroUsuario">
       <div class="form-row">
         <div class="form-group col-12 col-sm-6">
           <label for="inputNome">Nome</label>
@@ -51,6 +51,6 @@
       <button type="submit" class="btn btn-dark float-right" value="cadastrarUsuario" title="Enviar informações para cadastro">Cadastrar</button>
       <!-- <a href="#" class="btn btn-dark float-right" title="Inspire-se com nossos artigos! Clique aqui!" rel="next">Inspire-se</a> -->
     </form>
-    <p class="col-12 mt-4 text-center">Opa! Acho que já tenho cadastro, desejo fazer o <a href="./login.php" rel="next" title="Fazer login">login</a></p>
+    <p class="col-12 mt-3 text-center">Opa! Acho que já tenho cadastro, desejo fazer o <a href="./login.php" rel="next" title="Fazer login">login</a></p>
   </article>
 </section>
