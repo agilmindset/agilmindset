@@ -151,14 +151,17 @@ p a[target="_blank"]:hover:not(.btn) {
     font-size: 1.8em;
 }
 .erro-404,
-.formCadastroSection {
+.formCadastroSection,
+.formLoginSection {
     min-height: calc(100vh - 324px);
 }
 .erro-404 .box,
-.formCadastroSection .box {
+.formCadastroSection .box,
+.formLoginSection .box {
     color: #343a40;
 }
-.formCadastroSection article:first-child p {
+.formCadastroSection article:first-child p,
+.formLoginSection article:first-child p {
     font-size: 1.25rem;
 }
 footer a[target="_blank"]:hover {
