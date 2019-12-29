@@ -1,4 +1,4 @@
-<section id="bannerSecundario" class="carousel slide carousel-fade mx-0 mx-md-4 mt-2 mb-4 my-md-5" data-ride="carousel">
+<section id="bannerSecundario" class="carousel slide carousel-fade mx-0 mx-md-4 mt-2 mb-0 my-md-5" data-ride="carousel">
     <article class="carousel-inner px-0 px-md-2">
         <section class="carousel-item px-0 px-md-5 active">
             <article class="col-12">
