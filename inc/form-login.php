@@ -11,7 +11,7 @@
       <div class="form-row">
         <div class="form-group col-12 col-sm-6">
           <label for="inputEmail">Email</label>
-          <input type="text" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp" placeholder="fulano@dasilva.com" required tab-index="0" autocomplete="off">
+          <input type="text" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp" placeholder="fulano@dasilva.com" required tab-index="0" autocomplete="off" autofocus>
           <small id="emailHelp" class="form-text text-secondary">Insira seu Email</small>
         </div>
         <div class="form-group col-12 col-sm-6">
