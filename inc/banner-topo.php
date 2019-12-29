@@ -7,7 +7,7 @@
                 <div class="banner-caption col-12 col-sm-7 col-md-9 p-4">
                     <h1>agil<wbr/><span class="box">mindset</span></h1>
                     <p>Processos que geram <strong>valor</strong> e <strong>inovação</strong> através do <strong>engajamento</strong> e da <strong>colaboração</strong></p>
-                    <a href="./demo.php" target="_blank" class="btn btn-dark" title="Visite a versão demo" rel="noopener noreferrer">Acessar versão Demo</a>
+                    <a href="#" target="_blank" class="btn btn-dark" title="Visite a versão demo" rel="noopener noreferrer">Acessar versão Demo</a>
                     <!-- <a href="./cadastro.php" class="btn btn-dark" title="Cadastre-se e cadastre seu time!" rel="next">Cadastre-se</a> -->
                 </div>
             </article>

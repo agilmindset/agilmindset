@@ -20,7 +20,7 @@ $urlAmigavelPagina = "politicas-de-privacidade";
                     <h1 class="">Políticas<br/><span class="box">de Privacidade</span></h1>
                     <p class="mt-5">A <b>agilmindset</b> zela pela <b>transparência</b> junto a seus colaboradores, clientes, usuários e parceiros. E é por isso que nossa página de <b>políticas de privacidade</b> foi elaborada de forma a ser <b>facil e claramente compreendida</b>, sem <i>juridiquês</i> nem delongas. =)</p>
                     <p>Se houver qualquer dúvida, não hesite - <a href="mailto:webmaster@agilmindset.com?subject=Mensagem%20enviada%20via%20site%20agilMindset" rel="noopener noreferrer" target="_blank" title="Enviar email para webmaster@agilmindset.com">entre em contato conosco</a> - teremos prazer em ajudar você!</p>
-                    <p class="mb-5"><b>Lembre-se de que ao navegar no site, você está ciente e de acordo com nossas Políticas de Privacidade e <a href="./termos-de-uso.php" target="_blank" rel="noopener noreferrer">Termos de Uso</a>.</b></p>
+                    <p class="mb-5"><b>Lembre-se de que ao navegar no site, você está ciente e de acordo com nossas Políticas de Privacidade e <a href="termos-de-uso" target="_blank" rel="noopener noreferrer">Termos de Uso</a>.</b></p>
                 </div>
             </article>
         </section>

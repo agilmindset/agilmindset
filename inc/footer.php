@@ -5,8 +5,8 @@
             <ul>
                 <li><a href="#" title="Saiba mais sobre a agilMindset" rel="next" target="_self">Sobre</a></li>
                 <li><a href="#" title="Solicite uma proposta comercial" rel="next" target="_self">Propostas Comerciais</a></li>
-                <li><a href="#" title="Conheça as Políticas de Privacidade desse site" rel="next" target="_self">Políticas de Privacidade</a></li>
-                <li><a href="#" title="Conheça os Termos de Uso desse site" rel="next" target="_self">Termos de Uso</a></li>
+                <li><a href="politicas-de-privacidade" title="Conheça as Políticas de Privacidade desse site" rel="next" target="_self">Políticas de Privacidade</a></li>
+                <li><a href="termos-de-uso" title="Conheça os Termos de Uso desse site" rel="next" target="_self">Termos de Uso</a></li>
             </ul>
         </nav>
         <nav class="col-12 col-sm-6 row">

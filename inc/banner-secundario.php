@@ -5,7 +5,7 @@
                 <div class="banner-caption col-12 col-sm-9 px-0 py-4 py-md-5">
                     <h4>agil<wbr/><span class="box">mindset</span></h4>
                     <p>Acesse nossa versão de demonstração e descubra por conta própria todos os benefícios trazidos pela <b>agil<span class="box">mindset</span></b></p>
-                    <a href="./demo.php" target="_blank" class="btn btn-dark" title="Visite a versão demo" rel="noopener noreferrer">Acessar versão Demo</a>
+                    <a href="#" target="_blank" class="btn btn-dark" title="Visite a versão demo" rel="noopener noreferrer">Acessar versão Demo</a>
                 </div>
             </article>
         </section>
@@ -14,7 +14,7 @@
                 <div class="banner-caption col-12 col-sm-9 px-0 py-4 py-md-5">
                     <h4>acesse e <span class="box">descubra</span></h4>
                     <p>Acesse nossa versão de demonstração e descubra por conta própria todos os benefícios trazidos pela <b>agil<span class="box">mindset</span></b></p>
-                    <a href="./demo.php" target="_blank" class="btn btn-dark" title="Visite a versão demo" rel="noopener noreferrer">Acessar versão Demo</a>
+                    <a href="#" target="_blank" class="btn btn-dark" title="Visite a versão demo" rel="noopener noreferrer">Acessar versão Demo</a>
                 </div>
             </article>
         </section>
