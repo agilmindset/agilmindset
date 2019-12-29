@@ -152,17 +152,20 @@ p a[target="_blank"]:hover:not(.btn) {
 }
 .erro-404,
 .politicas,
+.termos,
 .formCadastroSection,
 .formLoginSection {
     min-height: calc(100vh - 324px);
 }
 .erro-404 .box,
 .politicas h1 .box,
+.termos h1 .box,
 .formCadastroSection .box,
 .formLoginSection .box {
     color: #343a40;
 }
 .politicas article:first-child p,
+.termos article:first-child p,
 .formCadastroSection article:first-child p,
 .formLoginSection article:first-child p {
     font-size: 1.25rem;
