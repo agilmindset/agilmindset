@@ -1,1 +1,3 @@
 https://agilmindset.com/
+https://agilmindset.com/cadastrar-usuario.php
+https://agilmindset.com/login.php
