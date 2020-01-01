@@ -189,6 +189,24 @@ a#djamentCopyright:hover {
     background-color: transparent;
     text-decoration: none;
 }
+::-moz-selection { /* Code for Firefox */
+    color: #192d35;
+    background:#adff2f;
+}
+::selection {
+    color: #192d35;
+    background:#adff2f;
+}
+a::-moz-selection, 
+a i::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background:#ff00ff;
+}
+a::selection, 
+a i::selection {
+    color: #fff;
+    background:#ff00ff;
+}
 @media only screen and (min-width: 768px) {
     main {
         min-height: calc(100vh - 348px);
