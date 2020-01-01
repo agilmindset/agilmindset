@@ -15,10 +15,11 @@ $urlAmigavelPagina = "";
         <?php require_once("./inc/vitrine-home.php"); ?>
 
         <?php //require_once("./inc/vitrine-ideias.php"); ?>
-
-        <?php require_once("./inc/banner-secundario.php"); ?>
     
     </main>
+    <aside class="container-fluid px-0">
+        <?php require_once("./inc/banner-secundario.php"); ?>
+    </aside>
     <?php require_once("./inc/footer.php"); ?>
 </body>
 
