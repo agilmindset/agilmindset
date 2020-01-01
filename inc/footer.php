@@ -4,9 +4,9 @@
             <h4>Institucional</h4>
             <ul>
                 <li><a href="#" title="Saiba mais sobre a agilMindset" rel="next" target="_self">Sobre a agil<span class="box">mindset</span></a></li>
-                <li><a href="#" title="Solicite uma proposta comercial" rel="next" target="_self">Propostas Comerciais</a></li>
-                <li><a href="politicas-de-privacidade" title="Conheça as Políticas de Privacidade desse site" rel="next" target="_self">Políticas de Privacidade</a></li>
-                <li><a href="termos-de-uso" title="Conheça os Termos de Uso desse site" rel="next" target="_self">Termos de Uso</a></li>
+                <li><a href="#" title="Entenda como funciona a plataforma agilmindset" rel="next" target="_self">Como Funciona</a></li>
+                <li><a href="#" title="Veja as principais dúvidas que surgem sobre a plataforma | Dúvidas Frequentes" rel="next" target="_self">FAQ</a></li>
+                <li><a href="#" title="Descubra quais os planos disponíveis atualmente" rel="next" target="_self">Planos</a></li>
             </ul>
         </nav>
         <nav class="col-12 col-sm-6 row">
@@ -27,15 +27,20 @@
         <nav class="col-12 col-sm-3">
             <h4>Relacionamento</h4>
             <ul>
-                <li><a href="https://facebook.com/agilmindset" title="Acessar página da agilmindset no Facebook" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook"> Facebook</i></a></li>
-                <li><a href="https://instagram.com/agilmindset" title="Acessar página da agilmindset no Instagram" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"> Instagram</i></a></li>
-                <li><a href="https://twitter.com/agilmindset" title="Acessar página da agilmindset no Twitter" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter"> Twitter</i></a></li>
-                <li><a href="https://www.linkedin.com/company/agilmindset/" title="Acessar página da agilmindset no LinkedIn" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"> LinkedIn</i></a></li>
-                <li><a href="mailto:webmaster@agilmindset.com" title="Enviar email para agilmindset - webmaster @ agilmindset.com]" rel="noopener noreferrer" target="_blank"><i class="fas fa-envelope"></i> enviar email</a></li>
+                <li>
+                    <a href="https://facebook.com/agilmindset" title="Acessar página da agilmindset no Facebook" rel="noopener noreferrer" target="_blank"> <i class="fab fa-facebook"> </i> </a>
+                    <a href="https://instagram.com/agilmindset" title="Acessar página da agilmindset no Instagram" rel="noopener noreferrer" target="_blank"> <i class="fab fa-instagram"> </i> </a>
+                    <a href="https://twitter.com/agilmindset" title="Acessar página da agilmindset no Twitter" rel="noopener noreferrer" target="_blank"> <i class="fab fa-twitter"> </i> </a>
+                    <a href="https://www.linkedin.com/company/agilmindset/" title="Acessar página da agilmindset no LinkedIn" rel="noopener noreferrer" target="_blank"> <i class="fab fa-linkedin"> </i> </a>
+                    <a href="mailto:webmaster@agilmindset.com" title="Enviar mensagem de Whatsapp para agilmindset]" rel="noopener noreferrer" target="_blank"> <i class="fab fa-whatsapp"> </i> </a>
+                    <a href="mailto:webmaster@agilmindset.com" title="Enviar email para agilmindset - webmaster @ agilmindset.com]" rel="noopener noreferrer" target="_blank"> <i class="fas fa-envelope"> </i> </a>
+                </li>
+                <li><a href="#" title="Entre em contato com a agilmindset" rel="next" target="_self">Entrar em Contato</a></li>
+                <li><a href="politicas-de-privacidade" title="Conheça as Políticas de Privacidade desse site" rel="next" target="_self">Políticas de Privacidade</a> e <a href="termos-de-uso" title="Conheça os Termos de Uso desse site" rel="next" target="_self">Termos de Uso</a></li>
             </ul>
         </nav>
     </article>
-    <p class="col-12 text-center">&copy; Copyright 2019 - <?php echo date("Y"); ?> | <a id="djamentCopyright" href="https://djament.com.br" title="Acesse o site da Djament Comunicação, idealizadora desse projeto" target="_blank" rel="noopener noreferrer">Djament</a></p>
+    <p class="col-12 text-center">&copy; Copyright 2019 - <?php echo date("Y"); ?> | agil<span class="box">mindset</span> by <a id="djamentCopyright" href="https://djament.com.br" title="Acesse o site da Djament Comunicação, idealizadora desse projeto" target="_blank" rel="noopener noreferrer">Djament</a> - CNPJ 20.196.856/0001-91</p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

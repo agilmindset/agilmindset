@@ -184,6 +184,11 @@ footer a[target="_blank"]:hover {
     color: #ff00ff;
     text-decoration: none;
 }
+footer .fab, 
+footer .fas {
+    font-size: 1.5em;
+    margin: 12px 16px 12px 0;
+}
 a#djamentCopyright:hover {
     color: #19ebfa;
     background-color: transparent;
