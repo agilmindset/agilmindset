@@ -32,8 +32,8 @@
                     <a href="https://instagram.com/agilmindset" title="Acessar página da agilmindset no Instagram" rel="noopener noreferrer" target="_blank"> <i class="fab fa-instagram"> </i> </a>
                     <a href="https://twitter.com/agilmindset" title="Acessar página da agilmindset no Twitter" rel="noopener noreferrer" target="_blank"> <i class="fab fa-twitter"> </i> </a>
                     <a href="https://www.linkedin.com/company/agilmindset/" title="Acessar página da agilmindset no LinkedIn" rel="noopener noreferrer" target="_blank"> <i class="fab fa-linkedin"> </i> </a>
-                    <a href="mailto:webmaster@agilmindset.com" title="Enviar mensagem de Whatsapp para agilmindset]" rel="noopener noreferrer" target="_blank"> <i class="fab fa-whatsapp"> </i> </a>
-                    <a href="mailto:webmaster@agilmindset.com" title="Enviar email para agilmindset - webmaster @ agilmindset.com]" rel="noopener noreferrer" target="_blank"> <i class="fas fa-envelope"> </i> </a>
+                    <a href="mailto:webmaster@agilmindset.com" title="Enviar email para webmaster [@] agilmindset [.] com" rel="noopener noreferrer" target="_blank"> <i class="fas fa-envelope"> </i> </a>
+                    <a href="https://wa.me/+5511976052723?text=Olá,%20acessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber:%0D%0A" title="Enviar mensagem de Whatsapp para agilmindset" rel="noopener noreferrer" target="_blank"> <i class="fab fa-whatsapp"> </i> </a>
                 </li>
                 <li><a href="#" title="Entre em contato com a agilmindset" rel="next" target="_self">Entrar em Contato</a></li>
                 <li><a href="politicas-de-privacidade" title="Conheça as Políticas de Privacidade desse site" rel="next" target="_self">Políticas de Privacidade</a> e <a href="termos-de-uso" title="Conheça os Termos de Uso desse site" rel="next" target="_self">Termos de Uso</a></li>
