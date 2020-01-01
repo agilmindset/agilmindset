@@ -50,7 +50,8 @@ span.box {
 a.navbar-brand.text-white:hover span.box{
     color: #fff !important;
 }
-a span.box:hover {
+a span.box:hover, 
+a:hover span.box {
     color: #fff;
 }
 /* a.nav-link.text-white:hover {

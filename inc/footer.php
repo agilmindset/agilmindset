@@ -3,7 +3,7 @@
         <nav class="col-12 col-sm-3">
             <h4>Institucional</h4>
             <ul>
-                <li><a href="#" title="Saiba mais sobre a agilMindset" rel="next" target="_self">Sobre</a></li>
+                <li><a href="#" title="Saiba mais sobre a agilMindset" rel="next" target="_self">Sobre a agil<span class="box">mindset</span></a></li>
                 <li><a href="#" title="Solicite uma proposta comercial" rel="next" target="_self">Propostas Comerciais</a></li>
                 <li><a href="politicas-de-privacidade" title="Conheça as Políticas de Privacidade desse site" rel="next" target="_self">Políticas de Privacidade</a></li>
                 <li><a href="termos-de-uso" title="Conheça os Termos de Uso desse site" rel="next" target="_self">Termos de Uso</a></li>
@@ -29,6 +29,7 @@
             <ul>
                 <li><a href="https://facebook.com/agilmindset" title="Acessar página da agilmindset no Facebook" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook"> Facebook</i></a></li>
                 <li><a href="https://instagram.com/agilmindset" title="Acessar página da agilmindset no Instagram" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"> Instagram</i></a></li>
+                <li><a href="https://twitter.com/agilmindset" title="Acessar página da agilmindset no Twitter" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter"> Twitter</i></a></li>
                 <li><a href="https://www.linkedin.com/company/agilmindset/" title="Acessar página da agilmindset no LinkedIn" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"> LinkedIn</i></a></li>
                 <li><a href="mailto:webmaster@agilmindset.com" title="Enviar email para agilmindset - webmaster @ agilmindset.com]" rel="noopener noreferrer" target="_blank"><i class="fas fa-envelope"></i> enviar email</a></li>
             </ul>
