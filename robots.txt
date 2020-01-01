@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.agilmindset.com/sitemap.xml
+Allow: /sitemap.htm
+Sitemap: https://agilmindset.com/sitemap.xml

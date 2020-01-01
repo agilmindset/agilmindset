@@ -1,27 +1,170 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://agilmindset.com/</loc>
-  <lastmod>2019-12-29T04:37:12+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://agilmindset.com/cadastrar-usuario.php</loc>
-  <lastmod>2019-12-29T04:37:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://agilmindset.com/login.php</loc>
-  <lastmod>2019-12-29T04:37:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://agilmindset.com/</loc>
+    <lastmod>2020-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/agil-mindset.jpg</image:loc>
+      <image:title>agilMindset | Uma plataforma para dividirmos insights e sugerirmos projetos inovadores</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/ponte.jpg</image:loc>
+      <image:title>Pesquise ideias | Busque por ideia através de filtros e categorias</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/ideias-colaborativas.jpg</image:loc>
+      <image:title>Colabore também | Envie novas ideias ou dê sugestões à ideias já cadastradas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/criacao-de-personas.jpg</image:loc>
+      <image:title>Colabore também | Envie novas ideias ou dê sugestões à ideias já cadastradas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/dados-em-conhecimento.jpg</image:loc>
+      <image:title>Colabore também | Envie novas ideias ou dê sugestões à ideias já cadastradas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/projetos-ageis.jpg</image:loc>
+      <image:title>Colabore também | Envie novas ideias ou dê sugestões à ideias já cadastradas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/inspiracao.jpg</image:loc>
+      <image:title>Encontre inspiração e referências para seus projetos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/ideias-e-insights.jpg</image:loc>
+      <image:title>Conheça as ideias sugeridas por clientes e colaboradores, veja as coisas com outro olhar</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/cocriacao.jpg</image:loc>
+      <image:title>Projetos e trabalhos realizados por equipes multidisciplinares</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/prototipagem-rapida.jpg</image:loc>
+      <image:title>Poupe investimento de tempo e dinheiro, conte com a ajuda de usuários para o desenvolvimento de produtos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/gamification.jpg</image:loc>
+      <image:title>Encontre inspiração e referências para seus projetos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/data-analytics.jpg</image:loc>
+      <image:title>Encontre inspiração e referências para seus projetos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/relatorios-dinamicos.jpg</image:loc>
+      <image:title>Encontre inspiração e referências para seus projetos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/persona-in-persona.jpg</image:loc>
+      <image:title>Encontre inspiração e referências para seus projetos</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agilmindset.com/cadastrar-usuario</loc>
+    <lastmod>2020-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/cadastrar-usuario.jpg</image:loc>
+      <image:title>Cadastro de usuário - cadastre-se e tenha acesso à versão de demonstração da agilmindset</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agilmindset.com/login</loc>
+    <lastmod>2020-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/login.jpg</image:loc>
+      <image:title>Login de usuário - cadastre-se e tenha acesso à versão de demonstração da agilmindset</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agilmindset.com/</loc>
+    <lastmod>2020-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/agil-mindset.jpg</image:loc>
+      <image:title>agilMindset | Uma plataforma para dividirmos insights e sugerirmos projetos inovadores</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/ponte.jpg</image:loc>
+      <image:title>Pesquise ideias | Busque por ideia através de filtros e categorias</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/ideias-colaborativas.jpg</image:loc>
+      <image:title>Colabore também | Envie novas ideias ou dê sugestões à ideias já cadastradas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/criacao-de-personas.jpg</image:loc>
+      <image:title>Colabore também | Envie novas ideias ou dê sugestões à ideias já cadastradas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/dados-em-conhecimento.jpg</image:loc>
+      <image:title>Colabore também | Envie novas ideias ou dê sugestões à ideias já cadastradas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/projetos-ageis.jpg</image:loc>
+      <image:title>Colabore também | Envie novas ideias ou dê sugestões à ideias já cadastradas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/inspiracao.jpg</image:loc>
+      <image:title>Encontre inspiração e referências para seus projetos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/ideias-e-insights.jpg</image:loc>
+      <image:title>Conheça as ideias sugeridas por clientes e colaboradores, veja as coisas com outro olhar</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/cocriacao.jpg</image:loc>
+      <image:title>Projetos e trabalhos realizados por equipes multidisciplinares</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/prototipagem-rapida.jpg</image:loc>
+      <image:title>Poupe investimento de tempo e dinheiro, conte com a ajuda de usuários para o desenvolvimento de produtos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/gamification.jpg</image:loc>
+      <image:title>Encontre inspiração e referências para seus projetos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/data-analytics.jpg</image:loc>
+      <image:title>Encontre inspiração e referências para seus projetos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/relatorios-dinamicos.jpg</image:loc>
+      <image:title>Encontre inspiração e referências para seus projetos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/persona-in-persona.jpg</image:loc>
+      <image:title>Encontre inspiração e referências para seus projetos</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agilmindset.com/termos-de-uso</loc>
+    <lastmod>2020-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/termos-de-uso.jpg</image:loc>
+      <image:title>Termos de Uso - entenda quais são os termos e condições para o uso da plataforma agilmindset</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://agilmindset.com/politicas-de-privacidade</loc>
+    <lastmod>2020-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://agilmindset.com/assets/img/politicas-de-privacidade.jpg</image:loc>
+      <image:title>Políticas de Privacidade - entenda como os dados capturados na plataforma são utilizados pela agilmindset</image:title>
+    </image:image>
+  </url>
 </urlset>
+<!--<guid value="f1a94dec-37da-48f6-88be-252d6d529838" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->

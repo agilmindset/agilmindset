@@ -8,23 +8,39 @@
      <link>https://agilmindset.com/</link>
      <title>agil mindset | inovação através do engajamento e da colaboração</title>
      <description>agil mindset | inovação através do engajamento e da colaboração - Processos que geram valor e inovação através do engajamento e da colaboração</description>
-     <ror:updatePeriod></ror:updatePeriod>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://agilmindset.com/cadastrar-usuario.php</link>
+     <link>https://agilmindset.com/cadastrar-usuario</link>
      <title>agil mindset | Cadastro de Usuário</title>
      <description>agil mindset | Cadastro de Usuário - Cadastre-se e tenha acesso a todas as ferramentas da agil mindset em uma versão de demonstração</description>
-     <ror:updatePeriod></ror:updatePeriod>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://agilmindset.com/login.php</link>
+     <link>https://agilmindset.com/login</link>
      <title>agil mindset | Login de Usuário</title>
      <description>agil mindset | Login de Usuário - Faça Login e acesse todas as ferramentas da agil mindset em uma versão de demonstração</description>
-     <ror:updatePeriod></ror:updatePeriod>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://agilmindset.com/politicas-de-privacidade</link>
+     <title>agil mindset | Políticas de Privacidade</title>
+     <description>agil mindset | Políticas de Privacidade - Entenda como tratamos seus dados na agilmindset.</description>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://agilmindset.com/termos-de-uso</link>
+     <title>agil mindset | Termos de Uso</title>
+     <description>agil mindset | Termos de Uso - Entenda os termos de uso na plataforma agilmindset.</description>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>

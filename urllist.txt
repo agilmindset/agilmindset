@@ -1,3 +1,5 @@
 https://agilmindset.com/
-https://agilmindset.com/cadastrar-usuario.php
-https://agilmindset.com/login.php
+https://agilmindset.com/cadastrar-usuario
+https://agilmindset.com/login
+https://agilmindset.com/politicas-de-privacidade
+https://agilmindset.com/termos-de-uso
