@@ -80,7 +80,8 @@ $urlAmigavelPagina = "politicas-de-privacidade";
                     </article>
                     <article class="col-12 my-3">
                         <h3 class="text-center mt-1 mb-4">Legislação Aplicável</h3>
-                        <p class="col-12 my-3">Essas <b>Políticas de Privacidade</b> são regidas, interpretadas e executadas conforme as leis da República Federativa do Brasil. O usuário consente, expressa e voluntariamente, com a competência desse juízo e renuncia à competência de quaisquer outros, por mais privilegiado que possa ser ou que possa vir a ser.</p>
+                        <p class="col-12 mt-3">Essas <b>Políticas de Privacidade</b> são regidas, interpretadas e executadas conforme as leis da República Federativa do Brasil. O usuário consente, expressa e voluntariamente, com a competência desse juízo e renuncia à competência de quaisquer outros, por mais privilegiado que possa ser ou que possa vir a ser.</p>
+                        <p class="col-12 my-4 text-center">&copy; Copyright 2019 - <?php echo date("Y"); ?> | <a id="djamentCopyright" href="https://djament.com.br" title="Acesse o site da Djament Comunicação, idealizadora desse projeto" target="_blank" rel="noopener noreferrer">Djament</a> - Todos os direitos reservados</p>
                     </article>
                 </section>
             </article>
