@@ -1,4 +1,4 @@
-<section id="vitrineHome" class="row col-12 p-3 p-lg-4 p-xl-5">
+<section id="vitrineSobre" class="row col-12 p-3 p-lg-4 p-xl-5 mx-auto">
     <header class="col-12 px-0">
         <h2 class="col-12 pt-4 text-center mx-0">Inovação</h2>
         <p class="col-12 pb-2 text-center mx-0 mb-4">Através de Processos Dinâmicos e Interativos e Análise de Dados</p>
