@@ -153,6 +153,7 @@ p a[target="_blank"]:hover:not(.btn) {
 }
 .erro-404,
 .politicas,
+.sobre, 
 .termos,
 .formCadastroSection,
 .formLoginSection {
@@ -160,16 +161,27 @@ p a[target="_blank"]:hover:not(.btn) {
 }
 .erro-404 .box,
 .politicas h1 .box,
+.sobre h1 .box, 
 .termos h1 .box,
 .formCadastroSection .box,
 .formLoginSection .box {
     color: #343a40;
 }
 .politicas article:first-child p,
+.sobre article:first-child p, 
 .termos article:first-child p,
 .formCadastroSection article:first-child p,
 .formLoginSection article:first-child p {
     font-size: 1.25rem;
+}
+.ctaLinks {
+    font-size: 2.8em;
+}
+.ctaLinks a {
+    margin: auto 24px auto 0;
+}
+.ctaLinks a:hover {
+    color: #ff00ff;
 }
 .bg-pink {
     background-color: #ff00ff;
@@ -194,7 +206,7 @@ a#djamentCopyright:hover {
     background-color: transparent;
     text-decoration: none;
 }
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
     color: #192d35;
     background:#adff2f;
 }
@@ -203,14 +215,26 @@ a#djamentCopyright:hover {
     background:#adff2f;
 }
 a::-moz-selection, 
-a i::-moz-selection { /* Code for Firefox */
+a i::-moz-selection,
+section header::-moz-selection, 
+section header i::-moz-selection {
     color: #fff;
     background:#ff00ff;
 }
 a::selection, 
-a i::selection {
+a i::selection,
+section header::selection, 
+section header i::selection {
     color: #fff;
     background:#ff00ff;
+}
+.box::-moz-selection {
+    color: #adff2f;
+    background:#192d35;
+}
+.box::selection {
+    color: #adff2f;
+    background:#192d35;
 }
 @media only screen and (min-width: 768px) {
     main {

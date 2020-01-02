@@ -9,6 +9,9 @@
         <div class="collapse navbar-collapse" id="menuTopo">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ml-auto">
+                    <a class="nav-link text-white" href="sobre" rel="next" title="Sobre a agilmindset">Sobre</a>
+                </li>
+                <li class="nav-item ml-auto">
                     <a class="nav-link text-white" href="cadastrar-usuario" rel="next" title="Cadastre-se">Cadastre-se</a>
                 </li>
                 <li class="nav-item ml-auto">

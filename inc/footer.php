@@ -3,7 +3,7 @@
         <nav class="col-12 col-sm-3">
             <h4>Institucional</h4>
             <ul>
-                <li><a href="#" title="Saiba mais sobre a agilMindset" rel="next" target="_self">Sobre a agil<span class="box">mindset</span></a></li>
+                <li><a href="sobre" title="Saiba mais sobre a agilMindset" rel="next" target="_self">Sobre a agil<span class="box">mindset</span></a></li>
                 <li><a href="#" title="Entenda como funciona a plataforma agilmindset" rel="next" target="_self">Como Funciona</a></li>
                 <li><a href="#" title="Veja as principais dúvidas que surgem sobre a plataforma | Dúvidas Frequentes" rel="next" target="_self">FAQ</a></li>
                 <li><a href="#" title="Descubra quais os planos disponíveis atualmente" rel="next" target="_self">Planos</a></li>
