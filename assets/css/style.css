@@ -179,6 +179,7 @@ p a[target="_blank"]:hover:not(.btn) {
 }
 .ctaLinks a {
     margin: auto 24px auto 0;
+    font-weight: normal;
 }
 .ctaLinks a:hover {
     color: #ff00ff;
