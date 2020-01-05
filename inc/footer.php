@@ -37,7 +37,7 @@
                     <a href="https://g.page/agilmindset?gm" title="Acessar página da agilmindset no Google" rel="noopener noreferrer" target="_blank"><i class="fab fa-google"><span class="d-none">Google</span></i></a>
                     <a href="https://github.com/agilmindset" title="Acessar repositório da agilmindset no Github" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"><span class="d-none">Github</span></i></a>
                     <a href="mailto:webmaster@agilmindset.com" title="Enviar email para webmaster [@] agilmindset [.] com" rel="noopener noreferrer" target="_blank"><i class="fas fa-envelope"><span class="d-none">email</span></i></a>
-                    <a href="https://wa.me/+5511976052723?text=Olá,%20acessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber:%0D%0A" title="Enviar mensagem de Whatsapp para agilmindset" rel="noopener noreferrer" target="_blank"><i class="fab fa-whatsapp"><span class="d-none">Whatsapp</span></i></a>
+                    <a href="https://wa.me/+5511976052723?text=Olá,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A" title="Enviar mensagem de Whatsapp para agilmindset" rel="noopener noreferrer" target="_blank"><i class="fab fa-whatsapp"><span class="d-none">Whatsapp</span></i></a>
                 </li>
                 <li><a href="#" title="Entre em contato com a agilmindset" rel="next" target="_self">Entrar em Contato</a></li>
                 <li><a href="politicas-de-privacidade" title="Conheça as Políticas de Privacidade desse site" rel="next" target="_self">Políticas de Privacidade</a> e <a href="termos-de-uso" title="Conheça os Termos de Uso desse site" rel="next" target="_self">Termos de Uso</a></li>
