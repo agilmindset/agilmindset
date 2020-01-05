@@ -28,9 +28,9 @@
     <!-- /Cache -->
 
     <!-- Manifesto Json -->
-    <link rel="manifest" href="./manifest.json">
-    <link rel="manifest" href="./manifest.webmanifest">
-    <meta name="application-name" content="agil mindset">
+    <link type="manifest+json" rel="manifest" href="./manifest.json">
+    <link type="manifest+json" rel="manifest" href="./manifest.webmanifest">
+    <meta name="application-name" content="agilmindset">
     <link rel="icon" sizes="16x16" href="./assets/favicons/favicon.ico">
     <!-- /Manifesto Json -->
 

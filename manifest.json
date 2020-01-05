@@ -5,123 +5,14 @@
   "description": "Compartilhe ideias, desenvolva processos, empodere colaboradores, conheça mais a fundo seus usuários",
   "short_name": "agil mindset",
   "start_url": "https://agilmindset.com",
+  "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "mime_type": "application/manifest+json",
-  "background_color": "#adff2f",
+  "background_color": "#98fb98",
   "theme_color": "#adff2f",
   "display": "standalone",
+  "scope": "https://agilmindset.com/",
   "icons": [
-    {
-      "src": "https://agilmindset.com/assets/favicons/favicon-512x512.png",
-      "sizes": "512x512",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/favicon-16x16.png",
-      "sizes": "16x16",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/android-icon-36x36.png",
-      "sizes": "36x36",
-      "type": "image/png",
-      "density": "0.75"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/android-icon-48x48.png",
-      "sizes": "48x48",
-      "type": "image/png",
-      "density": "1.0"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/apple-touch-icon-57x57.png",
-      "sizes": "57x57",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/apple-touch-icon-60x60.png",
-      "sizes": "60x60",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/android-icon-72x72.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "density": "1.5"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/apple-touch-icon-72x72.png",
-      "sizes": "72x72",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/apple-touch-icon-76x76.png",
-      "sizes": "76x76",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/android-icon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "density": "2.0"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/favicon-96x96.png",
-      "sizes": "96x96",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/apple-touch-icon-114x114.png",
-      "sizes": "114x114",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/apple-touch-icon-120x120.png",
-      "sizes": "120x120",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/favicon-128x128.png",
-      "sizes": "128x128",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/android-icon-144x144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "density": "3.0"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/apple-touch-icon-144x144.png",
-      "sizes": "144x144",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/apple-touch-icon-152x152.png",
-      "sizes": "152x152",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/apple-touch-icon-180x180.png",
-      "sizes": "180x180",
-      "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/android-icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "density": "4.0"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/touch-icon-192x192.png",
-      "sizes": "192x192",
-      "type": "img/png"
-    },
     {
       "src": "https://agilmindset.com/assets/favicons/favicon-196.png",
       "sizes": "196x196",
@@ -133,14 +24,9 @@
       "type": "img/png"
     },
     {
-      "src": "https://agilmindset.com/assets/favicons/console-480x480.png",
-      "sizes": "480x480",
+      "src": "https://agilmindset.com/assets/favicons/favicon-512x512.png",
+      "sizes": "512x512",
       "type": "img/png"
-    },
-    {
-      "src": "https://agilmindset.com/assets/favicons/console-480x480.jpg",
-      "sizes": "480x480",
-      "type": "img/jpg"
     }
   ]
 }
