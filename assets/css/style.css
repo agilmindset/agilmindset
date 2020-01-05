@@ -173,6 +173,8 @@ p a[target="_blank"]:hover:not(.btn) {
 }
 .politicas article:first-child p,
 .sobre article:first-child p, 
+.como-funciona article:first-child p, 
+.erro-404 article:first-child p, 
 .termos article:first-child p,
 .formCadastroSection article:first-child p,
 .formLoginSection article:first-child p {
