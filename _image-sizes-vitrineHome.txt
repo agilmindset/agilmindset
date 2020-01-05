@@ -1,23 +1,23 @@
 imagens bannerTopo:
-agil-mindset-150x150.jpg 150px
-agil-mindset-200x200.jpg (min-width: 200px) 200px
-agil-mindset-250x250.jpg (min-width: 250px) 250px
-agil-mindset-300x300.jpg (min-width: 300px) 300px
-agil-mindset-350x350.jpg (min-width: 350px) 350px
-agil-mindset-400x400.jpg (min-width: 400px) 400px
-agil-mindset-450x450.jpg (min-width: 450px) 450px
-agil-mindset-500x500.jpg (min-width: 500px) 500px
-agil-mindset-550x550.jpg (min-width: 550px) 550px
-agil-mindset-574x574.jpg (min-width: 574px) 574px
-agil-mindset-267x267.jpg (min-width: 640px) 267px
-agil-mindset-300x300.jpg (min-width: 720px) 300px
-agil-mindset-224x224.jpg (min-width: 960px) 224px
-agil-mindset-254x254.jpg (min-width: 1080px) 254px
-agil-mindset-304x304.jpg (min-width: 1280px) 304px
-agil-mindset-344x344.jpg (min-width: 1440px) 344px
-agil-mindset-464x464.jpg (min-width: 1920px) 464px
-agil-mindset-484x484.jpg (min-width: 2000px) 484px
-agil-mindset-614x614.jpg (min-width: 2500px) 614px
+imgName-150x150.jpg 150px
+imgName-200x200.jpg (min-width: 200px)     200px
+imgName-224x224.jpg (min-width: 960px)     224px
+imgName-250x250.jpg (min-width: 250px)     250px
+imgName-254x254.jpg (min-width: 1080px)    254px
+imgName-267x267.jpg (min-width: 640px)     267px
+imgName-300x300.jpg (min-width: 300px)     300px
+//imgName-300x300.jpg (min-width: 720px)   300px
+imgName-304x304.jpg (min-width: 1280px)    304px
+imgName-344x344.jpg (min-width: 1440px)    344px
+imgName-350x350.jpg (min-width: 350px)     350px
+imgName-400x400.jpg (min-width: 400px)     400px
+imgName-450x450.jpg (min-width: 450px)     450px
+imgName-464x464.jpg (min-width: 1920px)    464px
+imgName-484x484.jpg (min-width: 2000px)    484px
+imgName-500x500.jpg (min-width: 500px)     500px
+imgName-550x550.jpg (min-width: 550px)     550px
+imgName-574x574.jpg (min-width: 574px)     574px
+imgName-614x614.jpg (min-width: 2500px)    614px
 
 
 imagens vitrineHome:
