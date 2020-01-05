@@ -22,7 +22,8 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-a {
+a, strong {
+    font-weight: inherit;
     text-decoration: none;
     color: inherit;
     transition: all 0.6s ease-in;
@@ -31,7 +32,7 @@ p a,
 small a {
     text-decoration: underline;
 }
-strong,
+.banner-caption strong,
 i.fas.fa-bars,
 a:hover {
     color: #adff2f;
@@ -67,6 +68,7 @@ ul {
 .btn-dark[aria-expanded="true"],
 .banner-caption .btn-dark,
 .erro-404 .btn,
+.como-funciona .btn,
 .formCadastroSection .btn  {
     background-color: #adff2f;
     color: #000;
@@ -152,6 +154,7 @@ p a[target="_blank"]:hover:not(.btn) {
     font-size: 1.8em;
 }
 .erro-404,
+.como-funciona,
 .politicas,
 .sobre, 
 .termos,
@@ -160,6 +163,7 @@ p a[target="_blank"]:hover:not(.btn) {
     min-height: calc(100vh - 324px);
 }
 .erro-404 .box,
+.como-funciona h1 .box,
 .politicas h1 .box,
 .sobre h1 .box, 
 .termos h1 .box,
