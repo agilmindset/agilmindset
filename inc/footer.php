@@ -4,7 +4,7 @@
             <h4>Institucional</h4>
             <ul>
                 <li><a href="sobre" title="Saiba mais sobre a agilMindset" rel="next" target="_self">Sobre a agil<span class="box">mindset</span></a></li>
-                <li><a href="#" title="Entenda como funciona a plataforma agilmindset" rel="next" target="_self">Como Funciona</a></li>
+                <li><a href="como-funciona" title="Entenda como funciona a plataforma agilmindset" rel="next" target="_self">Como Funciona</a></li>
                 <li><a href="#" title="Veja as principais dúvidas que surgem sobre a plataforma | Dúvidas Frequentes" rel="next" target="_self">FAQ</a></li>
                 <li><a href="#" title="Descubra quais os planos disponíveis atualmente" rel="next" target="_self">Planos</a></li>
             </ul>
@@ -33,6 +33,8 @@
                     <a href="https://twitter.com/agilmindset" title="Acessar página da agilmindset no Twitter" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter"><span class="d-none">twitter</span></i></a>
                     <a href="https://www.linkedin.com/company/agilmindset" title="Acessar página da agilmindset no LinkedIn" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"><span class="d-none">Linked In</span></i></a>
                     <a href="https://medium.com/@agilmindset" title="Acessar página da agilmindset no Medium" rel="noopener noreferrer" target="_blank"><i class="fab fa-medium"><span class="d-none">Medium</span></i></a>
+                    <a href="https://pinterest.com/agilmindset/" title="Acessar página da agilmindset no Pinterest" rel="noopener noreferrer" target="_blank"><i class="fab fa-pinterest"><span class="d-none">Pinterest</span></i></a>
+                    <a href="https://g.page/agilmindset?gm" title="Acessar página da agilmindset no Google" rel="noopener noreferrer" target="_blank"><i class="fab fa-google"><span class="d-none">Google</span></i></a>
                     <a href="https://github.com/agilmindset" title="Acessar repositório da agilmindset no Github" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"><span class="d-none">Github</span></i></a>
                     <a href="mailto:webmaster@agilmindset.com" title="Enviar email para webmaster [@] agilmindset [.] com" rel="noopener noreferrer" target="_blank"><i class="fas fa-envelope"><span class="d-none">email</span></i></a>
                     <a href="https://wa.me/+5511976052723?text=Olá,%20acessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber:%0D%0A" title="Enviar mensagem de Whatsapp para agilmindset" rel="noopener noreferrer" target="_blank"><i class="fab fa-whatsapp"><span class="d-none">Whatsapp</span></i></a>
