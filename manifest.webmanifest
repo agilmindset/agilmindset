@@ -14,17 +14,17 @@
   "scope": "https://agilmindset.com/",
   "icons": [
     {
-      "src": "https://agilmindset.com/assets/favicons/favicon-196.png",
+      "src": "./assets/favicons/favicon-196.png",
       "sizes": "196x196",
       "type": "img/png"
     },
     {
-      "src": "https://agilmindset.com/assets/favicons/favicon-228x228.png",
+      "src": "./assets/favicons/favicon-228x228.png",
       "sizes": "228x228",
       "type": "img/png"
     },
     {
-      "src": "https://agilmindset.com/assets/favicons/favicon-512x512.png",
+      "src": "./assets/favicons/favicon-512x512.png",
       "sizes": "512x512",
       "type": "img/png"
     }
