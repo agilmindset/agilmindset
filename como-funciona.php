@@ -1,6 +1,6 @@
 <?php
-$tituloPagina = "agil mindset | Ops...";
-$descricaoPagina = "Erro 404 | Página não encontrada, desculpe.";
+$tituloPagina = "agil mindset | Como Funciona";
+$descricaoPagina = "O passo a passo proposto para a geração de engajamento, colaboração criativa e inovação.";
 $urlPagina = "https://agilmindset.com/como-funciona.php";
 $urlAmigavelPagina = "como-funciona";
 ?>
