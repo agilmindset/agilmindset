@@ -2,7 +2,7 @@
 $tituloPagina = "agil mindset | Ops...";
 $descricaoPagina = "Erro 404 | Página não encontrada, desculpe.";
 $urlPagina = "https://agilmindset.com/404.php";
-$urlAmigavelPagina = "";
+$urlAmigavelPagina = "404";
 ?>
 <?php require_once("./inc/head.php"); ?>
 
