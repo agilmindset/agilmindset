@@ -12,6 +12,9 @@
                     <a class="nav-link text-white" href="sobre" rel="next" title="Sobre a agilmindset">Sobre</a>
                 </li>
                 <li class="nav-item ml-auto">
+                    <a class="nav-link text-white" href="como-funciona" rel="next" title="Como funciona a agilmindset">Como Funciona</a>
+                </li>
+                <li class="nav-item ml-auto">
                     <a class="nav-link text-white" href="cadastrar-usuario" rel="next" title="Cadastre-se">Cadastre-se</a>
                 </li>
                 <li class="nav-item ml-auto">
