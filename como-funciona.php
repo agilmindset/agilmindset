@@ -28,19 +28,42 @@ $urlAmigavelPagina = "como-funciona";
                         <ul style="list-style-type: disc" class="pl-1 pl-sm-3 pl-md-4 mb-0">
                             <li class="my-2">Esse projeto encontra-se em fase embrionária (MVP v.0.0.1) - estamos finalizando a construção de nosso site (no qual você está navegando agora mesmo) para que possamos apresentar nossas ideias iniciais;</li>
                             <li class="my-2">Contamos com a ajuda de todos - inclusive com a sua - à medida que formos disponibilizando (gratuitamente) nossas ferramentes em uma versão <i>demo</i> da plataforma - cujo projeto em foco será a própria <b>agilmindset</b>.</li>
-                            <li class="my-2"></li>
+                            <li class="my-2">Atualmente ainda não é possível adquirir uma instância de nossa plataforma, mas todo e qualquer usuário que venha a se cadastrar em nosso site antecipadamente terá acesso a benefícios e vantagens - ainda a serem definidas;</li>
+                            <li class="my-2">Enquanto desenvolvemos nossa plataforma, estamos compartilhando conteúdo relevante em diferentes redes sociais, confira em nosso rodapé ou na página <a href="sobre" rel="next" title="Conheça melhor o projeto agilmindset">Sobre</a></li>
                         </ul>
                     </header>
                 </section>
                 <section class="row my-3">
-                    <h2 class="col-12 mt-4">Termos Gerais</h2>
+                    <h2 class="col-12 mt-4">Como funciona?</h2>
                     <article class="col-12 my-3">
-                        <p class="col-12 mt-3">A <b>agilmindset</b> é uma iniciativa da <b>Djament Comunicação</b> (razão social Marcelo Diament37484380873, inscrita como MEI sob o CNPJ 20.196.856/0001-91). Trata-se de um projeto que <b>visa fomentar a cultura da inovação através do desenvolvimento e fornecimento de ferramentas digitais que tornem processos criativos e colaborativos mais acessíveis</b> a empresas e atores de projetos que buscam a inovação.</p>
-                        <p class="col-12">Parte dessas ferramentas digitais é focada na criação de ideias (da publicação de artigos à definição de protótipos e MVPs) e outra parte é direcionada à gestão dos dados obtidos através da plataforma (seja por quizes, inputs de terceiros, formulários...). <b>O intuito é: de um lado obter dados relevantes da forma mais segmentada possível e, do outro, transformar esses dados em conhecimento</b> (em forma de estatísticas, de personas, do detalhamento da jornada de experiência do consumidor, insights de colaboradores...).</p>
-                        <p class="col-12 mb-3">O projeto tem como premissa a gamificação dos processos, de forma a torná-los mais atraentes, envolventes e até mesmo mais valorizados. Para isso, praticamente toda ação executada na plataforma (incluindo informações fornecidas e capturadas) é registrada e recompensada através de pontos (a serem definidos por cada adquirente da plataforma). Torna-se então <b>necessário o registro das ações realizadas atreladas ao usuário que as realizou, horário e outras informações que permitirão inclusive o repasse dos pontos ao usuário</b> (a troca dos pontos por prêmios é definida pelo adquirente da plataforma).</p>
+                        <p class="col-12 mt-3">A <b>agilmindset</b> como projeto possui mais um público alvo. Nosso conjunto de públicos é formado por:</p>
+                        <ul>
+                            <li>Empresas (que buscam adquirir uma instância da plataforma)</li>
+                            <li>Diretores (que utilizarão dados e <i>insights</i> para tomadas de decisões)</li>
+                            <li>Gestores (que utilizarão a plataforma para otimizar processos e gerar valor)</li>
+                            <li>Colaboradores (que não só farão sugestões como terão acesso ao que pensam colaboradores de outros setores relacionados à sua atividade)</li>
+                            <li>Clientes (poderão mostrar seu ponto de vista, ideias, motivações e comportamento em geral através de formulários gamificados que darão descontos ou outros benefícios)</li>
+                        </ul>
+                        <p class="col-12 mb-3">Confira a seguir o <i>workflow</i> proposto inicialmente (as ferramentas muito provavelmente serão desenvolvidas nessa mesma ordem).</p>
+                    </article>
+                    <article class="col-12 my-3">
+                        <h3 class="text-center mt-1 mb-4">01. Cadastro no Site</h3>
+                        <p class="col-12 my-3">O responsável pela empresa deverá se cadastrar no site <b><a href="https://agilmindset.com">agilmindset.com</a></b> e entrar em contato conosco para manifestar sua intenção de aquisição. Retornaremos prontamente o contato para entendermos as demandas específicas, o momento em que se encontra a empresa (em relação à cultura ágil e digital) e para conversarmos sobre como a <b>agilmindset</b> pode ajudar sua empresa da melhor maneira.</p>
                     </article>
                 </section>
-                <section class="row my-3">
+                <!-- <section class="row my-3">
+                    <h2 class="col-12 mt-4">Como adquirir a solução?</h2>
+                    <article class="col-12 my-3">
+                        <p class="col-12 mt-3">Apesar de propormos um fluxo inicial para que o projeto seja implantado, posteriormente a empresa adquirente poderá criar seus próprios métodos - inclusive faz parte de nossos planos abrir a possibilidade de criarmos módulos sob medida (exclusivos ou abertos ao público) assim como de homologar soluções de terceiros (que eventualmente podem vir a se tornar disponíveis para compra em um marketplace da plataforma ou serem disponibilizados ao público de forma gratuita).</p>
+                        <p class="col-12">A ideia é que seja uma plataforma escalonável e com possibilidade de integração com um extenso leque de ferramentas e <i>frameworks</i> externos (como Google Tag Manager, Google Analytics, Google AdWords, Google AdSense, Google Shopping / Merchant Center, Jira, Trello, BitBucket, GitHub, WordPress, Laravel, entre outras).</p>
+                        <p class="col-12 mb-3">Confira a seguir o <i>workflow</i> proposto inicialmente (as ferramentas muito provavelmente serão desenvolvidas nessa mesma ordem).</p>
+                    </article>
+                    <article class="col-12 my-3">
+                        <h3 class="text-center mt-1 mb-4">01. Cadastro no Site</h3>
+                        <p class="col-12 my-3">O responsável pela empresa deverá se cadastrar no site <b><a href="https://agilmindset.com">agilmindset.com</a></b> e entrar em contato conosco para manifestar sua intenção de aquisição. Retornaremos prontamente o contato para entendermos as demandas específicas, o momento em que se encontra a empresa (em relação à cultura ágil e digital) e para conversarmos sobre como a <b>agilmindset</b> pode ajudar sua empresa da melhor maneira.</p>
+                    </article>
+                </section> -->
+                <!-- <section class="row my-3">
                     <h2 class="col-12 mt-4">Privacidade</h2>
                     <article class="col-12 my-3">
                         <p class="col-12 my-3">A Djament Comunicação ("<b>agilmindset</b>") tem como compromisso o respeito pelas informações de seus visitantes, usuários, clientes e parceiros. Recomendamos fortemente a leitura de nossas políticas. Ao fornecer informações pessoais e/ou navegar no site, você está ciente e de acordo com as regras de utilização, proteção e segurança aqui estabelecidas.</p>
@@ -76,7 +99,7 @@ $urlAmigavelPagina = "como-funciona";
                         <p class="col-12 mt-3">Essas <b>Políticas de Privacidade</b> são regidas, interpretadas e executadas conforme as leis da República Federativa do Brasil. O usuário consente, expressa e voluntariamente, com a competência desse juízo e renuncia à competência de quaisquer outros, por mais privilegiado que possa ser ou que possa vir a ser.</p>
                         <p class="col-12 my-4 text-center">&copy; Copyright 2019 - <?php echo date("Y"); ?> | <a id="djamentCopyright" href="https://djament.com.br" title="Acesse o site da Djament Comunicação, idealizadora desse projeto" target="_blank" rel="noopener noreferrer">Djament</a> - Todos os direitos reservados</p>
                     </article>
-                </section>
+                </section> -->
             </article>
         </section>
         <?php require_once("./inc/banner-secundario.php"); ?>

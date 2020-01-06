@@ -43,6 +43,15 @@ a.nav-link.text-white:hover,
 footer h4 {
     color: #adff2f !important;
 }
+.bg-light header a {
+    color: inherit;
+    text-decoration: underline;
+}
+.bg-light header a:hover {
+    color: inherit;
+    text-decoration: none;
+    background-color: #ff00ff;
+}
 span.box {
     color: #adff2f;
     font-weight: bolder;
