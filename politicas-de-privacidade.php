@@ -24,7 +24,7 @@ $urlAmigavelPagina = "politicas-de-privacidade";
                 <section class="row my-3">
                     <header class="col-12 p-5">
                         <h3 class="mb-3"><b>TL; DR</b></h3>
-                        <ul style="list-style-type: disc" class="pl-1 pl-sm-3 pl-md-4 mb-0">
+                        <ul class="pl-1 pl-sm-3 pl-md-4 pl-lg-5 mb-0">
                             <li class="my-2">Todas as informações disponibilizadas na plataforma serão registradas em um banco de dados para que esses dados sejam transformados em oportunidades;</li>
                             <li class="my-2">Os dados obtidos pela plataforma (bem como relatórios) serão sempre compartilhados com a <b>agilmindset</b> (que não distribuirá a terceiros em hipótese alguma);</li>
                             <li class="my-2">Dados pessoais serão preservados, sendo as senhas criptografadas (aconselhamos o uso de senhas fortes);</li>

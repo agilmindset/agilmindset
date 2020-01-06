@@ -22,7 +22,7 @@ $urlAmigavelPagina = "sobre";
             <article class="container">
                 <section class="row my-3">
                     <header class="col-12 p-5">
-                        <h3 class="mb-3"><b>Siga @agilmindset</b></h3>
+                        <h3 class="mb-3"><b>Interaja com a gente!<br/><strong>@agilmindset</strong></b></h3>
                         <ul class="pl-0 mb-0 ctaLinks">
                             <li>
                                 <a href="https://facebook.com/agilmindset" title="Acessar página da agilmindset no Facebook" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook"><span class="d-none">Facebook</span></i></a>

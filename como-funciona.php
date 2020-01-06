@@ -37,7 +37,7 @@ $urlAmigavelPagina = "como-funciona";
                     <h2 class="col-12 mt-4">Como funciona?</h2>
                     <article class="col-12 my-3">
                         <p class="col-12 mt-3">A <b>agilmindset</b> como projeto possui mais um público alvo. Nosso conjunto de públicos é formado por:</p>
-                        <ul>
+                        <ul class="pl-1 pl-sm-3 pl-md-4 pl-lg-5">
                             <li>Empresas (que buscam adquirir uma instância da plataforma)</li>
                             <li>Diretores (que utilizarão dados e <i>insights</i> para tomadas de decisões)</li>
                             <li>Gestores (que utilizarão a plataforma para otimizar processos e gerar valor)</li>
@@ -48,58 +48,27 @@ $urlAmigavelPagina = "como-funciona";
                     </article>
                     <article class="col-12 my-3">
                         <h3 class="text-center mt-1 mb-4">01. Cadastro no Site</h3>
-                        <p class="col-12 my-3">O responsável pela empresa deverá se cadastrar no site <b><a href="https://agilmindset.com">agilmindset.com</a></b> e entrar em contato conosco para manifestar sua intenção de aquisição. Retornaremos prontamente o contato para entendermos as demandas específicas, o momento em que se encontra a empresa (em relação à cultura ágil e digital) e para conversarmos sobre como a <b>agilmindset</b> pode ajudar sua empresa da melhor maneira.</p>
+                        <div id="passoAdmin01">
+                        <h4 class="mt-2 mb-1">Para Administradores</h4>
+                        <p class="col-12 mt-3">O responsável pela empresa deverá se cadastrar no site <b><a href="https://agilmindset.com">agilmindset.com</a></b> e entrar em contato conosco para manifestar sua intenção de aquisição. Retornaremos prontamente o contato para entendermos as demandas específicas, o momento em que se encontra a empresa (em relação à cultura ágil e digital) e para conversarmos sobre como a <b>agilmindset</b> pode ajudar sua empresa da melhor maneira.</p>
+                        <p class="col-12 mb-3">Atualmente não há planos disponíveis, mas iremos liberando o acesso a usuários já cadastrados conforme os protótipos dos módulos forem ficando prontos. Usuários que se cadastrarem antes do lançamento oficial da ferramenta gozarão de descontos e benefícios ainda a serem definidos.</p>
+                        </div>
+                        <div id="passoColab01">
+                        <h4 class="mt-2 mb-1">Para Colaboradores</h4>
+                        <p class="col-12 mt-3">Caso a empresa opte por utilizar a plataforma de modo interno, junto a seus colaboradores e/ou clientes previamente selecionados, o acesso será restrito (o administrador da instância da plataforma deverá cadastrar seus usuários previamente). Nesse caso você receberá seu usuário, senha (a ser alterada por você) e link para <a href="login" title="Já possuo meus dados de acesso e desejo fazer login">login</a>. Basta inserir seus dados de acesso para fazer login (e trocar sua senha).</p>
+                        <p class="col-12 mt-3">O conceito da ferramenta é <i>gamificar</i> os processos de modo a fomentar a interação entre os usuários. Para tal, devem ser definidas recompensas pelos pontos acumulados de acordo com as ações realizadas por cada usuário (como possíveis folgas a cada X pontos acumulados).</p>
+                        </div>
+                        <div id="passoCliente01">
+                        <h4 class="mt-2 mb-1">Para Clientes</h4>
+                        <p class="col-12 mt-3">Caso a empresa opte por utilizar a plataforma com seus clientes, poderá definir se manterá o acesso restrito (nesse caso o cliente receberá seu usuário, senha a ser alterada por ele e o link para <a href="login" title="página de login">login</a>). Ou a empresa adquirente poderá deixar o acesso público (aumentando probabilidade de boas ideias aparecerem e o volume de dados a serem analisados - mas aumentando também a demanda por tempo a ser investido na plataforma).</p>
+                        <p class="col-12 mt-3">O conceito da ferramenta é <i>gamificar</i> os processos de modo a fomentar a interação entre os usuários. Para tal, devem ser definidas recompensas pelos pontos acumulados de acordo com as ações realizadas por cada usuário (como descontos em compras online).</p>
+                        </div>
+                        <div id="passoEarly01">
+                        <h4 class="mt-2 mb-1">Para <i>Early Adopters</i></h4>
+                        <p class="col-12 mt-3">Usuários que gostariam de colaborar com o projeto <b>agilmindset</b> podem usufruir gratuitamente de nossa ferramenta, acumulando pontos cujas recompensas ainda devem ser definidas.</p>
+                        <p class="col-12 mt-3">Atualmente não temos a opção de login nem de cadastro, mas você pode <a href="mailto:webmaster@agilmindset.com?subject=Solicitação%20de%20pré%20cadastro%20no%20site%20agilmindset" rel="noopener noreferrer" target="_blank" title="Solicitar pré cadastro gratuito na plataforma agilmindset">nos enviar um email e solicitar o seu pré cadastro</a> - ficaremos muito gratos com seu contato!</p>
                     </article>
                 </section>
-                <!-- <section class="row my-3">
-                    <h2 class="col-12 mt-4">Como adquirir a solução?</h2>
-                    <article class="col-12 my-3">
-                        <p class="col-12 mt-3">Apesar de propormos um fluxo inicial para que o projeto seja implantado, posteriormente a empresa adquirente poderá criar seus próprios métodos - inclusive faz parte de nossos planos abrir a possibilidade de criarmos módulos sob medida (exclusivos ou abertos ao público) assim como de homologar soluções de terceiros (que eventualmente podem vir a se tornar disponíveis para compra em um marketplace da plataforma ou serem disponibilizados ao público de forma gratuita).</p>
-                        <p class="col-12">A ideia é que seja uma plataforma escalonável e com possibilidade de integração com um extenso leque de ferramentas e <i>frameworks</i> externos (como Google Tag Manager, Google Analytics, Google AdWords, Google AdSense, Google Shopping / Merchant Center, Jira, Trello, BitBucket, GitHub, WordPress, Laravel, entre outras).</p>
-                        <p class="col-12 mb-3">Confira a seguir o <i>workflow</i> proposto inicialmente (as ferramentas muito provavelmente serão desenvolvidas nessa mesma ordem).</p>
-                    </article>
-                    <article class="col-12 my-3">
-                        <h3 class="text-center mt-1 mb-4">01. Cadastro no Site</h3>
-                        <p class="col-12 my-3">O responsável pela empresa deverá se cadastrar no site <b><a href="https://agilmindset.com">agilmindset.com</a></b> e entrar em contato conosco para manifestar sua intenção de aquisição. Retornaremos prontamente o contato para entendermos as demandas específicas, o momento em que se encontra a empresa (em relação à cultura ágil e digital) e para conversarmos sobre como a <b>agilmindset</b> pode ajudar sua empresa da melhor maneira.</p>
-                    </article>
-                </section> -->
-                <!-- <section class="row my-3">
-                    <h2 class="col-12 mt-4">Privacidade</h2>
-                    <article class="col-12 my-3">
-                        <p class="col-12 my-3">A Djament Comunicação ("<b>agilmindset</b>") tem como compromisso o respeito pelas informações de seus visitantes, usuários, clientes e parceiros. Recomendamos fortemente a leitura de nossas políticas. Ao fornecer informações pessoais e/ou navegar no site, você está ciente e de acordo com as regras de utilização, proteção e segurança aqui estabelecidas.</p>
-                    </article>
-                    <article class="col-12 my-3">
-                        <h3 class="text-center mt-1 mb-4">Coleta de Dados</h3>
-                        <p class="col-12 mt-3">Ao se cadastrar na <b>agilmindset</b>, é necessário o fornecimento de dados como nome completo, endereço de email apelido e senha definida no momento do cadastro. Essas informações são armazenadas pela <b>agilmindset</b> com o objetivo de otimizar a jornada de experiência (além da própria proteção de seus dados). Além dos dados básicos de cadastro, a <b>agilmindset</b> coleta algumas outras informações de forma automática, como o país de acesso, data e hora de acesso, o dispositivo utilizado, etc..</p>
-                        <p class="col-12">Um recurso fundamental da plataforma são os quizes - formulários gamificados que captam dados relativos à jornada de experiência do consumidor, recompensando os usuários que respondem às questões com pontos (que posteriormente serão trocados por benefícios acordados com os gestores dos adquirentes da plataforma). Esses dados serão formatados, higienizados, segmentados e expostos em forma de gráficos e relatórios - nunca atrelados diretamente à pessoa que respondeu ao quiz.</p>
-                        <p class="col-12 mb-3">Cada adquirente da plataforma terá uma instância personalizada da mesma. Para cada instância da plataforma, o adquirente poderá definir suas próprias políticas - de privacidade, de troca de pontos, de termos de uso... no entanto, em caso de conflitos, a política definida pela <b>agilmindset</b> sempre deverá prevalecer.</p>
-                    </article>
-                    <article class="col-12 my-3">
-                        <h3 class="text-center mt-1 mb-4">Uso de Dados</h3>
-                        <p class="col-12 mt-3">A <b>agilmindset</b> entende que todas as informações pessoais coletadas como confidenciais, expondo apenas dados referentes a hábitos, costumes e comportamento - sem nunca divulgar nomes, emails e documentos de usuários reais.</p>
-                        <p class="col-12 mb-3">Sendo assim, ao navegar no site e utilizar os serviços da <b>agilmindset</b>, o usuário consente expressamente com o uso de seus dados e informações da forma prevista em nossas políticas, tanto para efeitos de uso da plataforma como para otimizar e melhorar continuamente a experiência do usuário em nosso site.</p>
-                    </article>
-                    <article class="col-12 my-3">
-                        <h3 class="text-center mt-1 mb-4">Exclusão de Conta</h3>
-                        <p class="col-12 mt-3">É possível solicitar a exclusão - definitiva - dos <b>dados pessoais</b>, a <b>agilmindset</b> a fará conforme a Lei 12.965/2014, respeitando o prazo mínimo legal de armazenamento de informações. Para solicitar a exclusão é necessário solicitar à pessoa resposável pela aquisição da plataforma (é possível fazer isso por meio da própria plataforma). Em caso de dificuldades, por favor, <a href="mailto:webmaster@agilmindset.com?subject=agilmindset%20-%20Solicitação%20de%20exclusão%20de%20cadastro%20-%20<?php echo date('d/m/Y'); ?>" rel="noopener noreferrer" target="_blank" title="Enviar email para webmaster@agilmindset.com">entre em contato conosco</a>.</p>
-                        <p class="col-12 mb-3">Vale ressaltar que dados não pessoais coletados (respostas à pesquisas e quizes, por exemplo), serão mantidos em nossa base de dados.</p>
-                    </article>
-                    <article class="col-12 my-3">
-                        <h3 class="text-center mt-1 mb-4">Cookies</h3>
-                        <p class="col-12 my-3">O uso de cookies permite ao site reconhecer um usuário, permitindo aplicar suas preferências e melhorar sua experiência de forma geral. Trata-se de arquivos de dados que são armazenados no computador (sem dados pessoais). Alguns desses dados são definidos diretamente pela <b>agilmindset</b> (como a preferência de filtros de busca, por exemplo) enquanto outros são definidos por terceiros (como o Google Analytics, que monitora o comportamento de usuários no site para identificar possíveis erros e melhorias possíveis).</p>
-                    </article>
-                </section>
-                <section class="row my-3">
-                    <h2 class="col-12 mt-4">Atualizações</h2>
-                    <article class="col-12 my-3">
-                        <p class="col-12 my-3">A Djament Comunicação ("<b>agilmindset</b>") reserva-se o direito de, a qualquer momento, modificar as Políticas de Privacidade aqui definidas.</p>
-                    </article>
-                    <article class="col-12 my-3">
-                        <h3 class="text-center mt-1 mb-4">Legislação Aplicável</h3>
-                        <p class="col-12 mt-3">Essas <b>Políticas de Privacidade</b> são regidas, interpretadas e executadas conforme as leis da República Federativa do Brasil. O usuário consente, expressa e voluntariamente, com a competência desse juízo e renuncia à competência de quaisquer outros, por mais privilegiado que possa ser ou que possa vir a ser.</p>
-                        <p class="col-12 my-4 text-center">&copy; Copyright 2019 - <?php echo date("Y"); ?> | <a id="djamentCopyright" href="https://djament.com.br" title="Acesse o site da Djament Comunicação, idealizadora desse projeto" target="_blank" rel="noopener noreferrer">Djament</a> - Todos os direitos reservados</p>
-                    </article>
-                </section> -->
             </article>
         </section>
         <?php require_once("./inc/banner-secundario.php"); ?>
