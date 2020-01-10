@@ -4,7 +4,7 @@
 <head>
     <!-- Configurações Gerais -->
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> -->
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, minimum-scale=1.0">
@@ -15,18 +15,17 @@
     <meta name="description" content="<?= $tituloPagina . " - " . $descricaoPagina ?>">
     <!-- /Meta Dados Genéricos -->
     <!-- Cache -->
-    <meta http-equiv="Cache-control" content="public">
-    <meta http-equiv="cache-control" content="max-age=31536000">
+    <!-- <meta http-equiv="cache-control" content="max-age=31536000"> -->
     <meta name="revisit-after" content="1 year">
-    <meta http-equiv="expires" content="1 year">
+    <!-- <meta http-equiv="expires" content="1 year"> -->
     <meta name="identifier-URL" content="<?= $urlPagina ?>">
     <meta name="url" content="<?= $urlPagina ?>">
     <meta property="og:url" content="<?= $urlPagina ?>">
     <link rel="canonical" href="https://agilmindset.com/<?= $urlAmigavelPagina ?>">
     <!-- /Cache -->
     <!-- Manifesto Json -->
-    <link type="manifest+json" rel="manifest" href="./manifest.json">
-    <link type="manifest+json" rel="manifest" href="./manifest.webmanifest">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="./manifest.webmanifest">
     <meta name="application-name" content="agilmindset">
     <link rel="icon" sizes="16x16" href="./assets/favicons/favicon.ico">
     <!-- /Manifesto Json -->
