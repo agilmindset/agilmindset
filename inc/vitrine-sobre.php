@@ -3,7 +3,7 @@
         <h2 class="col-12 pt-4 text-center mx-0">Inovação</h2>
         <p class="col-12 pb-2 text-center mx-0 mb-4">Através de Processos Dinâmicos e Interativos e Análise de Dados</p>
     </header>
-    <article class="card-deck">
+    <div class="card-deck">
         <section class="card col-12 col-sm-3 px-0 mt-4 mb-1 order-0 order-sm-0">
             <img srcset="./assets/img/inspiracao-587x391.jpg 587w, ./assets/img/inspiracao-432x288.jpg 432w, ./assets/img/inspiracao-302x201.jpg 302w, ./assets/img/inspiracao-272x181.jpg 272w, ./assets/img/inspiracao-249x166.jpg 249w, ./assets/img/inspiracao-323x215.jpg 323w, ./assets/img/inspiracao-1031x687.jpg 1031w, ./assets/img/inspiracao-287x191.jpg 287w, ./assets/img/inspiracao-926x617.jpg 926w, ./assets/img/inspiracao-372x248.jpg 372w, ./assets/img/inspiracao-287x191.jpg 287w, ./assets/img/inspiracao-255x170.jpg 255w, ./assets/img/inspiracao-540x360.jpg 540w, ./assets/img/inspiracao-446x297.jpg 446w, ./assets/img/inspiracao-326x217.jpg 326w, ./assets/img/inspiracao-215x143.jpg 215w, ./assets/img/inspiracao-150x100.jpg 150w" sizes="(min-width: 2000px) 587px, (min-width: 1920px) 432px, (min-width: 1400px) 302px, (min-width: 1280px) 272px, (min-width: 1140px) 249px, (min-width: 810px) 372px, (min-width: 720px) 327px, (min-width: 640px) 287px, (min-width: 576px) 255px, (min-width: 574px) 540px, (min-width: 480px) 446px, (min-width: 360px) 326px, (min-width: 246px) 215px, 150px" src="./assets/img/inspiracao.jpg" width="100%" height="auto" class="card-img-top" alt="Encontre inspiração e referências para seus projetos">
             <div class="card-body">
@@ -36,8 +36,8 @@
                 <a href="#" class="btn btn-dark float-right" title="Veja como dar os primeiros passos com sua ideia!" rel="next">Ver minha persona</a>
             </div>
         </section>
-    </article>
-    <article class="card-deck">
+    </div>
+    <div class="card-deck">
         <section class="card col-12 col-sm-3 px-0 mt-4 mb-1 order-8 order-sm-2">
             <img srcset="./assets/img/gamification-587x391.jpg 587w, ./assets/img/gamification-432x288.jpg 432w, ./assets/img/gamification-302x201.jpg 302w, ./assets/img/gamification-272x181.jpg 272w, ./assets/img/gamification-249x166.jpg 249w, ./assets/img/gamification-323x215.jpg 323w, ./assets/img/gamification-1031x687.jpg 1031w, ./assets/img/gamification-287x191.jpg 287w, ./assets/img/gamification-926x617.jpg 926w, ./assets/img/gamification-372x248.jpg 372w, ./assets/img/gamification-287x191.jpg 287w, ./assets/img/gamification-255x170.jpg 255w, ./assets/img/gamification-540x360.jpg 540w, ./assets/img/gamification-446x297.jpg 446w, ./assets/img/gamification-326x217.jpg 326w, ./assets/img/gamification-215x143.jpg 215w, ./assets/img/gamification-150x100.jpg 150w" sizes="(min-width: 2000px) 587px, (min-width: 1920px) 432px, (min-width: 1400px) 302px, (min-width: 1280px) 272px, (min-width: 1140px) 249px, (min-width: 810px) 372px, (min-width: 720px) 327px, (min-width: 640px) 287px, (min-width: 576px) 255px, (min-width: 574px) 540px, (min-width: 480px) 446px, (min-width: 360px) 326px, (min-width: 246px) 215px, 150px" src="./assets/img/gamification.jpg" width="100%" height="auto" class="card-img-top" alt="Encontre inspiração e referências para seus projetos">
             <div class="card-body">
@@ -70,5 +70,5 @@
                 <a href="#" class="btn btn-dark float-right" title="Veja como dar os primeiros passos com sua ideia!" rel="next">Ver personas</a>
             </div>
         </section>
-    </article>
+    </div>
 </section>

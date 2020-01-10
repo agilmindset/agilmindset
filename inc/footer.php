@@ -1,5 +1,5 @@
 <footer class="container-fluid bg-dark text-white py-3">
-    <article class="row my-3 mx-0 m-md-4">
+    <div class="row my-3 mx-0 m-md-4">
         <nav class="col-12 col-sm-3 row">
             <h4 class="col-12">Institucional</h4>
             <ul class="col-12">
@@ -45,7 +45,7 @@
                 </li>
             </ul>
         </nav>
-    </article>
+    </div>
     <p class="col-12 text-center">&copy; Copyright 2019 - <?php echo date("Y"); ?> | agil<span class="box">mindset</span> by <a id="djamentCopyright" href="https://djament.com.br" title="Acesse o site da Djament Comunicação, idealizadora desse projeto" target="_blank" rel="noopener noreferrer">Djament</a> - CNPJ 20.196.856/0001-91</p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

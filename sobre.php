@@ -9,7 +9,7 @@ $urlAmigavelPagina = "sobre";
 <body>
     <?php require_once("./inc/header.php"); ?>
     <main class="container-fluid px-0 sobre">
-        <section class="container-fluid mx-0 p-2 p-sm-4 p-md-5">
+        <div class="container-fluid mx-0 p-2 p-sm-4 p-md-5">
             <article class="d-flex flex-wrap flex-md-nowrap align-items-center p-0">
                 <img srcset="./assets/img/agil-mindset-150x150.jpg 150w, ./assets/img/agil-mindset-200x200.jpg 200w, ./assets/img/agil-mindset-250x250.jpg 250w, ./assets/img/agil-mindset-300x300.jpg 300w, ./assets/img/agil-mindset-350x350.jpg 350w, ./assets/img/agil-mindset-400x400.jpg 400w, ./assets/img/agil-mindset-450x450.jpg 450w, ./assets/img/agil-mindset-500x500.jpg 500w, ./assets/img/agil-mindset-550x550.jpg 550w, ./assets/img/agil-mindset-574x574.jpg 574w, ./assets/img/agil-mindset-267x267.jpg 267w, ./assets/img/agil-mindset-300x300.jpg 300w, ./assets/img/agil-mindset-224x224.jpg 224w, ./assets/img/agil-mindset-254x254.jpg 254w, ./assets/img/agil-mindset-304x304.jpg 304w, ./assets/img/agil-mindset-344x344.jpg 344w, ./assets/img/agil-mindset-464x464.jpg 464w, ./assets/img/agil-mindset-484x484.jpg 484w, ./assets/img/agil-mindset-614x614.jpg 614w" sizes="(min-width: 2500px) 614px, (min-width: 2000px) 484px, (min-width: 1920px) 464px, (min-width: 1440px) 344px, (min-width: 1280px) 304px, (min-width: 1080px) 254px, (min-width: 960px) 224px, (min-width: 720px) 300px, (min-width: 640px) 267px, (min-width: 574px) 574px, (min-width: 550px) 550px, (min-width: 500px) 500px, (min-width: 450px) 450px, (min-width: 400px) 400px, (min-width: 350px) 350px, (min-width: 300px) 300px, (min-width: 250px) 250px, (min-width: 200px) 200px, 150px" src="./assets/img/agil-mindset.jpg" class="col-12 col-sm-5 col-md-3 px-0 pl-md-0 pr-md-3 banner-img" alt="Sobre a agilmindset - saiba mais">
                 <div class="col-12 col-sm-7 col-md-9 p-4">
@@ -18,8 +18,8 @@ $urlAmigavelPagina = "sobre";
                     <p class="mb-5">Atualmente estamos na primeira fase do MVP - <i>sim, seguimos as mesmas metodologias que propomos aos nossos clientes e parceiros, claro!</i> - e em breve disponibilizaremos protótipos funcionais para que você possa conhecer essa versão inicial da ferramente agilmindset quanto para que possa contribuir com melhorias nas próximas versões. =)</i></p>
                 </div>
             </article>
-        </section>
-        <section class="container-fluid mx-0 p-2 p-sm-4 p-md-5 bg-light">
+        </div>
+        <div class="container-fluid mx-0 p-2 p-sm-4 p-md-5 bg-light">
             <article class="container">
                 <section class="row my-3">
                     <header class="col-12 p-5">
@@ -50,7 +50,7 @@ $urlAmigavelPagina = "sobre";
                     </article>
                 </section>
             </article>
-        </section>
+        </div>
         <?php require_once("./inc/vitrine-sobre.php"); ?>
         <?php require_once("./inc/banner-secundario.php"); ?>
     </main>

@@ -9,7 +9,7 @@ $urlAmigavelPagina = "como-funciona";
 <body>
     <?php require_once("./inc/header.php"); ?>
     <main class="container-fluid px-0 como-funciona">
-        <section class="container-fluid mx-0 p-2 p-sm-4 p-md-5">
+        <div class="container-fluid mx-0 p-2 p-sm-4 p-md-5">
             <article class="d-flex flex-wrap flex-md-nowrap align-items-center p-0">
                 <img srcset="./assets/img/como-funciona-150x150.jpg 150w, ./assets/img/como-funciona-200x200.jpg 200w, ./assets/img/como-funciona-250x250.jpg 250w, ./assets/img/como-funciona-300x300.jpg 300w, ./assets/img/como-funciona-350x350.jpg 350w, ./assets/img/como-funciona-400x400.jpg 400w, ./assets/img/como-funciona-450x450.jpg 450w, ./assets/img/como-funciona-500x500.jpg 500w, ./assets/img/como-funciona-550x550.jpg 550w, ./assets/img/como-funciona-574x574.jpg 574w, ./assets/img/como-funciona-267x267.jpg 267w, ./assets/img/como-funciona-300x300.jpg 300w, ./assets/img/como-funciona-224x224.jpg 224w, ./assets/img/como-funciona-254x254.jpg 254w, ./assets/img/como-funciona-304x304.jpg 304w, ./assets/img/como-funciona-344x344.jpg 344w, ./assets/img/como-funciona-464x464.jpg 464w, ./assets/img/como-funciona-484x484.jpg 484w, ./assets/img/como-funciona-614x614.jpg 614w" sizes="(min-width: 2500px) 614px, (min-width: 2000px) 484px, (min-width: 1920px) 464px, (min-width: 1440px) 344px, (min-width: 1280px) 304px, (min-width: 1080px) 254px, (min-width: 960px) 224px, (min-width: 720px) 300px, (min-width: 640px) 267px, (min-width: 574px) 574px, (min-width: 550px) 550px, (min-width: 500px) 500px, (min-width: 450px) 450px, (min-width: 400px) 400px, (min-width: 350px) 350px, (min-width: 300px) 300px, (min-width: 250px) 250px, (min-width: 200px) 200px, 150px" src="./assets/img/como-funciona.jpg" class="col-12 col-sm-5 col-md-3 px-0 pl-md-0 pr-md-3 banner-img" alt="Como funciona a plataforma de inovação agilmindset">
                 <div class="col-12 col-sm-7 col-md-9 p-4">
@@ -19,8 +19,8 @@ $urlAmigavelPagina = "como-funciona";
                     <p class="mb-5">O projeto ainda se encontra em fase inicial (MVP - Mínimo Produto Viável) - e você já pode colaborar conosco, basta <a href="mailto:webmaster@agilmindset.com?subject=Mensagem%20enviada%20via%20site%20agilMindset" rel="noopener noreferrer" target="_blank" title="Enviar email para webmaster@agilmindset.com">entre em contato com a gente</a>, teremos prazer em te ouvir! Veja a seguir o fluxo inicialmente proposto pela plataforma agilmindset! ;)</p>
                 </div>
             </article>
-        </section>
-        <section class="container-fluid mx-0 p-2 p-sm-4 p-md-5 bg-light">
+        </div>
+        <div class="container-fluid mx-0 p-2 p-sm-4 p-md-5 bg-light">
             <article class="container">
                 <section class="row my-3">
                     <header class="col-12 p-5">
@@ -71,7 +71,7 @@ $urlAmigavelPagina = "como-funciona";
                     </article>
                 </section>
             </article>
-        </section>
+        </div>
         <?php require_once("./inc/banner-secundario.php"); ?>
     </main>
     <?php require_once("./inc/footer.php"); ?>
