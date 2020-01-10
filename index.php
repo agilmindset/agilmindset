@@ -9,13 +9,8 @@ $urlAmigavelPagina = "";
 <body>
     <?php require_once("./inc/header.php"); ?>
     <main class="container-fluid">
-
         <?php require_once("./inc/banner-topo.php"); ?>
-
         <?php require_once("./inc/vitrine-home.php"); ?>
-
-        <?php //require_once("./inc/vitrine-ideias.php"); ?>
-    
     </main>
     <aside class="container-fluid px-0">
         <?php require_once("./inc/banner-secundario.php"); ?>

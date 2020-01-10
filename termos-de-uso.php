@@ -13,7 +13,7 @@ $urlAmigavelPagina = "termos-de-uso";
             <article class="d-flex flex-wrap flex-md-nowrap align-items-center p-0">
                 <img srcset="./assets/img/termos-de-uso-150x150.jpg 150w, ./assets/img/termos-de-uso-200x200.jpg 200w, ./assets/img/termos-de-uso-250x250.jpg 250w, ./assets/img/termos-de-uso-300x300.jpg 300w, ./assets/img/termos-de-uso-350x350.jpg 350w, ./assets/img/termos-de-uso-400x400.jpg 400w, ./assets/img/termos-de-uso-450x450.jpg 450w, ./assets/img/termos-de-uso-500x500.jpg 500w, ./assets/img/termos-de-uso-550x550.jpg 550w, ./assets/img/termos-de-uso-574x574.jpg 574w, ./assets/img/termos-de-uso-267x267.jpg 267w, ./assets/img/termos-de-uso-300x300.jpg 300w, ./assets/img/termos-de-uso-224x224.jpg 224w, ./assets/img/termos-de-uso-254x254.jpg 254w, ./assets/img/termos-de-uso-304x304.jpg 304w, ./assets/img/termos-de-uso-344x344.jpg 344w, ./assets/img/termos-de-uso-464x464.jpg 464w, ./assets/img/termos-de-uso-484x484.jpg 484w, ./assets/img/termos-de-uso-614x614.jpg 614w" sizes="(min-width: 2500px) 614px, (min-width: 2000px) 484px, (min-width: 1920px) 464px, (min-width: 1440px) 344px, (min-width: 1280px) 304px, (min-width: 1080px) 254px, (min-width: 960px) 224px, (min-width: 720px) 300px, (min-width: 640px) 267px, (min-width: 574px) 574px, (min-width: 550px) 550px, (min-width: 500px) 500px, (min-width: 450px) 450px, (min-width: 400px) 400px, (min-width: 350px) 350px, (min-width: 300px) 300px, (min-width: 250px) 250px, (min-width: 200px) 200px, 150px" src="./assets/img/termos-de-uso.jpg" class="col-12 col-sm-5 col-md-3 px-0 pl-md-0 pr-md-3 banner-img" alt="Termos de Uso - entenda quais são os termos e condições para o uso da plataforma agilmindset">
                 <div class="col-12 col-sm-7 col-md-9 p-4">
-                    <h1 class="">Termos<br/><span class="box">e Condições de Uso</span></h1>
+                    <h1 class="">Termos<br /><span class="box">e Condições de Uso</span></h1>
                     <p class="mt-5">A <b>agilmindset</b> proporciona um ambiente digital de <b>compartilhamento, cocriação, de coexistência</b>. E para que surjam projetos inovadores e que agreguem valor aos negócios, é imprescindível a boa convivência entre todos os usuários. Para garantir essa <b>boa convivência</b>, elaboramos esses <b>Termos de Uso</b> (ou Termos e Condiçõe de Uso).</p>
                     <p>Se houver qualquer dúvida, conte conosco! Basta <a href="mailto:webmaster@agilmindset.com?subject=Mensagem%20enviada%20via%20site%20agilMindset" rel="noopener noreferrer" target="_blank" title="Enviar email para webmaster@agilmindset.com">entrar em contato</a> - teremos prazer em ajudar você!</p>
                     <p class="mb-5"><b>Lembre-se de que ao navegar no site, você está ciente e de acordo com nossas <a href="politicas-de-privacidade" target="_blank" rel="noopener noreferrer" title="Leia as políticas de privacidade da agilmindset">Políticas de Privacidade</a> e Termos de Uso.</b></p>
@@ -28,19 +28,6 @@ $urlAmigavelPagina = "termos-de-uso";
                         <p class="col-12 mt-3 mb-0">OS USUÁRIOS MENORES DE 18 ANOS DE IDADE SOMENTE PODERÃO EFETUAR O REGISTRO OU CADASTRO NESSE SITE SE DEVIDAMENTE REPRESENTADOS OU ASSISTIDOS POR SEUS REPRESENTANTES OU ASSISTENTES LEGAIS, DEVENDO ESSES SER RESPONSÁVEIS NA ESFERA CÍVEL POR TODO E QUALQUER ATO PRATICADO PELOS MENORES QUANDO DA UTILIZAÇÃO DO SITE, CONFORME PREVISTO NOS ARTIGOS <a href="https://www.jusbrasil.com.br/topicos/10620733/artigo-1634-da-lei-n-10406-de-10-de-janeiro-de-2002" target="_blank" rel="noopener noreferrer" title="Leia o artigo 1.634 do Código Civil">1.634</a> E <a href="https://www.jusbrasil.com.br/topicos/10615826/artigo-1690-da-lei-n-10406-de-10-de-janeiro-de-2002" target="_blank" rel="noopener noreferrer" title="Leia o artigo 1.690 do Código Civil">1.690</a> DO CÓDIGO CIVIL. OS REPRESENTANTES LEGAIS SERÃO RESPONSÁVEIS, POR TODO E QUALQUER ATO ILÍCITO PRATICADO PELOS MENORES QUANDO DA UTILIZAÇÃO DO SITE.</p>
                     </header>
                 </section>
-                <!-- <section class="row my-3">
-                    <header class="col-12 p-5">
-                        <h3 class="mb-3"><b>TL; DR</b></h3>
-                        <ul style="list-style-type: disc" class="pl-1 pl-sm-3 pl-md-4 mb-0">
-                            <li class="my-2">Todas as informações disponibilizadas na plataforma serão registradas em um banco de dados para que esses dados sejam transformados em oportunidades;</li>
-                            <li class="my-2">Os dados obtidos pela plataforma (bem como relatórios) serão sempre compartilhados com a <b>agilmindset</b> (que não distribuirá a terceiros em hipótese alguma);</li>
-                            <li class="my-2">Dados pessoais serão preservados, sendo as senhas criptografadas (aconselhamos o uso de senhas fortes);</li>
-                            <li class="my-2">O site conta com segurança certificada através do selo SSL;</li>
-                            <li class="my-2">Adquirentes da plataforma poderão definir as próprias políticas e termos em suas instâncias (políticas essas que não se sobreporão jamais às definidas pela própria plataforma);</li>
-                            <li class="my-2">Ao navegar no site, o usuário está ciente e de acordo com os termos e políticas do site.</li>
-                        </ul>
-                    </header>
-                </section> -->
                 <section class="row my-3">
                     <h2 class="col-12 mt-4">Termos Gerais</h2>
                     <article class="col-12 my-3">

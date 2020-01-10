@@ -6,7 +6,6 @@
                 <li><a href="sobre" title="Saiba mais sobre a agilMindset" rel="next" target="_self">Sobre a agil<span class="box">mindset</span></a></li>
                 <li><a href="como-funciona" title="Entenda como funciona a plataforma agilmindset" rel="next" target="_self">Como Funciona</a></li>
                 <li><a href="#" title="Veja as principais dúvidas que surgem sobre a plataforma | Dúvidas Frequentes" rel="next" target="_self">FAQ</a></li>
-                <!-- <li><a href="#" title="Descubra quais os planos disponíveis atualmente" rel="next" target="_self">Planos</a></li> -->
                 <li><a href="politicas-de-privacidade" title="Conheça as Políticas de Privacidade desse site" rel="next" target="_self">Políticas de Privacidade</a> e <a href="termos-de-uso" title="Conheça os Termos de Uso desse site" rel="next" target="_self">Termos de Uso</a></li>
             </ul>
         </nav>

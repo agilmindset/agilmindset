@@ -16,6 +16,3 @@ $urlAmigavelPagina = "cadastrar-usuario";
 </body>
 
 </html>
-
-
-
