@@ -161,13 +161,12 @@ section header p,
 
 .card-deck .card p.card-text {
     height: 100px;
-    line-clamp: 4;
     -webkit-line-clamp: 4;
     text-overflow: ellipsis;
     overflow: hidden;
     -webkit-box-orient: vertical;
     display: -webkit-box;
-    white-space: wrap;
+    white-space: pre-line;
 }
 
 form a[target="_blank"] {

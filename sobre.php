@@ -27,7 +27,7 @@ $urlAmigavelPagina = "sobre";
                         <ul class="pl-0 mb-0 ctaLinks">
                             <li>
                                 <a href="https://facebook.com/agilmindset" title="Acessar página da agilmindset no Facebook" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook"><span class="d-none">Facebook</span></i></a>
-                                <a href="https://instagram.com/agilmindset" title="Acessar página da agilmindset no Instagram" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"><span class="d-none">Instagram</span></i></a>
+                                <a href="https://instagram.com/agilmindset/" title="Acessar página da agilmindset no Instagram" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"><span class="d-none">Instagram</span></i></a>
                                 <a href="https://twitter.com/agilmindset" title="Acessar página da agilmindset no Twitter" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter"><span class="d-none">twitter</span></i></a>
                                 <a href="https://www.linkedin.com/company/agilmindset/" title="Acessar página da agilmindset no LinkedIn" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"><span class="d-none">Linked In</span></i></a>
                                 <a href="https://medium.com/@agilmindset" title="Acessar página da agilmindset no Medium" rel="noopener noreferrer" target="_blank"><i class="fab fa-medium"><span class="d-none">Medium</span></i></a>
