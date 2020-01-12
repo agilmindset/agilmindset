@@ -42,5 +42,24 @@ $(document).ready(function () {
                 'background-color: #98fb98; color: #273238; font-weight: bold; font-size: 72px; line-height: 96px; font-family: monospace;',
                 'background-color: #f8f9fa; color: #192d35; font-size: 56px; line-height: 64px; font-family: monospace;');
         };
+        const comoFuncionaNavItens = $('.comoFuncionaNav');
+        const comoFuncionaItens = $('.comoFuncionaItem');
+        const verificarAccordion = (el) => {
+            comoFuncionaItens.each(function(el) {
+                if($(this).first().attr('id') != $('.comoFuncionaItem.show').first().attr('aria-controls')){
+                    return $(this).first().removeClass('show')
+                } else {
+                    return $(this).first().addClass('show')
+                }
+            });
+            comoFuncionaNavItens.each(function() {
+                if($(this).first().attr('aria-expanded') == 'true'){
+                    return $(this).first().attr('aria-expanded','false')
+                }
+            });
+        }
+        comoFuncionaNavItens.each( function() {
+            $(this).on('click', verificarAccordion); 
+        });
     };
 });

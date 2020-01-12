@@ -45,14 +45,14 @@ $urlAmigavelPagina = "como-funciona";
                     </ul>
                     <p class="col-12 mb-3">Confira a seguir o <i>workflow</i> proposto inicialmente (as ferramentas muito provavelmente serão desenvolvidas nessa mesma ordem).</p>
                 </article>
-                <nav class="col-12 mt-4 d-flex flex-nowrap justify-content-start align-items-center">
-                    <button class="btn btn-dark mr-2 my-2">Para Administradores</button>
-                    <button class="btn btn-dark m-2">Para Colaboradores</button>
-                    <button class="btn btn-dark m-2">Para Clientes</button>
-                    <button class="btn btn-dark m-2">Para <i>Early Adopters</i></button>
+                <nav class="col-12 mt-4 d-flex flex-nowrap justify-content-start align-items-center bg-light" id="comoFuncionaNav">
+                    <button id="comoFuncionaBtnAdmin" class="comoFuncionaNav btn btn-dark mr-2 my-2" type="button" data-toggle="collapse" data-target="#comoFuncionaAdmin" aria-expanded="false" aria-controls="comoFuncionaAdmin">Para Administradores</button>
+                    <button id="comoFuncionaBtnColab" class="comoFuncionaNav btn btn-dark m-2" type="button" data-toggle="collapse" data-target="#comoFuncionaColab" aria-expanded="false" aria-controls="comoFuncionaColab">Para Colaboradores</button>
+                    <button id="comoFuncionaBtnCliente" class="comoFuncionaNav btn btn-dark m-2" type="button" data-toggle="collapse" data-target="#comoFuncionaCliente" aria-expanded="false" aria-controls="comoFuncionaCliente">Para Clientes</button>
+                    <button id="comoFuncionaBtnEarly" class="comoFuncionaNav btn btn-dark m-2" type="button" data-toggle="collapse" data-target="#comoFuncionaEarly" aria-expanded="true" aria-controls="comoFuncionaEarly">Para Early Adopters</button>
                 </nav>
                 <article class="col-12 my-3">
-                    <div id="comoFuncionaAdmin row">
+                    <div id="comoFuncionaAdmin" class="comoFuncionaItem collapse row">
                         <h3 class="text-center my-4 col-12">Para Administradores</h3>
                         <section class="col-12">
                             <h4 class="mt-3 mb-1 col-12">01. Cadastro de Administradores</h4>
@@ -60,7 +60,7 @@ $urlAmigavelPagina = "como-funciona";
                             <p class="col-12 mb-3">Atualmente não há planos disponíveis, mas iremos liberando o acesso a usuários já cadastrados conforme os protótipos dos módulos forem ficando prontos. Usuários que se cadastrarem antes do lançamento oficial da ferramenta gozarão de descontos e benefícios ainda a serem definidos.</p>
                         </section>
                     </div>
-                    <div id="comoFuncionaColab row">
+                    <div id="comoFuncionaColab" class="comoFuncionaItem collapse row">
                         <h3 class="text-center my-4 col-12">Para Colaboradores</h3>
                         <section class="col-12">
                             <h4 class="mt-3 mb-1 col-12">01. Cadastro de Colaboradores</h4>
@@ -68,7 +68,7 @@ $urlAmigavelPagina = "como-funciona";
                             <p class="col-12 mt-3">O conceito da ferramenta é <i>gamificar</i> os processos de modo a fomentar a interação entre os usuários. Para tal, devem ser definidas recompensas pelos pontos acumulados de acordo com as ações realizadas por cada usuário (como possíveis folgas a cada X pontos acumulados).</p>
                         </section>
                     </div>
-                    <div id="comoFuncionaCliente row">
+                    <div id="comoFuncionaCliente" class="comoFuncionaItem collapse row">
                         <h3 class="text-center my-4 col-12">Para Clientes</h3>
                         <section class="col-12">
                             <h4 class="mt-3 mb-1 col-12">01. Cadastro de Clientes</h4>
@@ -76,7 +76,7 @@ $urlAmigavelPagina = "como-funciona";
                             <p class="col-12 mt-3">O conceito da ferramenta é <i>gamificar</i> os processos de modo a fomentar a interação entre os usuários. Para tal, devem ser definidas recompensas pelos pontos acumulados de acordo com as ações realizadas por cada usuário (como descontos em compras online).</p>
                         </section>
                     </div>
-                    <div id="comoFuncionaEarly row">
+                    <div id="comoFuncionaEarly" class="comoFuncionaItem collapse row show">
                         <h3 class="text-center my-4 col-12">Para <i>Early Adopters</i></h3>
                         <section class="col-12">
                             <h4 class="mt-3 mb-1 col-12">01. Cadastro de <i>Early Adopters</i></h4>
