@@ -46,12 +46,12 @@ $urlAmigavelPagina = "como-funciona";
                     <p class="col-12 mb-3">Confira a seguir o <i>workflow</i> proposto inicialmente (as ferramentas muito provavelmente serão desenvolvidas nessa mesma ordem).</p>
                 </article>
                 <nav class="col-12 mt-4 d-flex flex-nowrap justify-content-start align-items-center bg-light" id="comoFuncionaNav">
-                    <button id="comoFuncionaBtnAdmin" class="comoFuncionaNav btn btn-dark mr-2 my-2" type="button" data-toggle="collapse" data-target="#comoFuncionaAdmin" aria-expanded="false" aria-controls="comoFuncionaAdmin">Para Administradores</button>
+                    <button id="comoFuncionaBtnEarly" class="comoFuncionaNav btn btn-dark mr-2" type="button" data-toggle="collapse" data-target="#comoFuncionaEarly" aria-expanded="true" aria-controls="comoFuncionaEarly">Para Early Adopters</button>
+                    <button id="comoFuncionaBtnAdmin" class="comoFuncionaNav btn btn-dark m-2 my-2" type="button" data-toggle="collapse" data-target="#comoFuncionaAdmin" aria-expanded="false" aria-controls="comoFuncionaAdmin">Para Administradores</button>
                     <button id="comoFuncionaBtnColab" class="comoFuncionaNav btn btn-dark m-2" type="button" data-toggle="collapse" data-target="#comoFuncionaColab" aria-expanded="false" aria-controls="comoFuncionaColab">Para Colaboradores</button>
                     <button id="comoFuncionaBtnCliente" class="comoFuncionaNav btn btn-dark m-2" type="button" data-toggle="collapse" data-target="#comoFuncionaCliente" aria-expanded="false" aria-controls="comoFuncionaCliente">Para Clientes</button>
-                    <button id="comoFuncionaBtnEarly" class="comoFuncionaNav btn btn-dark m-2" type="button" data-toggle="collapse" data-target="#comoFuncionaEarly" aria-expanded="true" aria-controls="comoFuncionaEarly">Para Early Adopters</button>
                 </nav>
-                <article class="col-12 my-3">
+                <article class="col-12 my-3" id="comoFuncionaContainer">
                     <div id="comoFuncionaAdmin" class="comoFuncionaItem collapse row">
                         <h3 class="text-center my-4 col-12">Para Administradores</h3>
                         <section class="col-12">
