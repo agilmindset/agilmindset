@@ -5,7 +5,6 @@ $urlPagina = "https://agilmindset.com/index.php";
 $urlAmigavelPagina = "";
 ?>
 <?php require_once("./inc/head.php"); ?>
-
 <?php require_once("./inc/header.php"); ?>
 <main class="container-fluid">
     <?php require_once("./inc/banner-topo.php"); ?>

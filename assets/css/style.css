@@ -281,16 +281,26 @@ a#djamentCopyright:hover {
 
 a::-moz-selection,
 a i::-moz-selection,
-section header::-moz-selection,
-section header i::-moz-selection {
+#vitrineHome header::-moz-selection,
+#vitrineHome header p::-moz-selection,
+#vitrineHome header h2::-moz-selection,
+#vitrineHome header i::-moz-selection,
+#vitrineHome header p i::-moz-selection,
+#vitrineHome header h2 i::-moz-selection,
+#bannerCaption strong::-moz-selection {
     color: #fff;
     background: #ff00ff;
 }
 
 a::selection,
 a i::selection,
-section header::selection,
-section header i::selection {
+#vitrineHome header::selection,
+#vitrineHome header p::selection,
+#vitrineHome header h2::selection,
+#vitrineHome header i::selection,
+#vitrineHome header p i::selection,
+#vitrineHome header h2 i::selection,
+#bannerCaption strong::selection {
     color: #fff;
     background: #ff00ff;
 }
