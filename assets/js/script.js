@@ -42,22 +42,41 @@ $(document).ready(function () {
                 'background-color: #98fb98; color: #273238; font-weight: bold; font-size: 72px; line-height: 96px; font-family: monospace;',
                 'background-color: #f8f9fa; color: #192d35; font-size: 56px; line-height: 64px; font-family: monospace;');
         };
-        const comoFuncionaNavItens = $('.comoFuncionaNav');
-        const comoFuncionaItens = $('.comoFuncionaItem');
-        const verificarAccordion = (el) => {
-            comoFuncionaItens.each(function(el) {
-                if($(this).first().attr('id') != $('.comoFuncionaItem.show').first().attr('aria-controls')){
-                    return $(this).first().removeClass('show')
-                } else {
-                    return $(this).first().addClass('show')
+        /**
+         * Incremento às funções de collpase e accordion do Bootstrap
+         * @requires Bootstrap v.4.1.
+         */
+        
+        const comoFuncionaNavItens = $('.comoFuncionaNav'); // objeto com os botões para abrir bloco de conteúdo do accordion
+        const comoFuncionaItens = $('.comoFuncionaItem'); // objeto com os blocos de conteúdo do accordion
+        
+        const verificarAccordion = (e) => {
+            var itemClicadoId = e.target.id;
+            var itemClicadoAlvo = $('#'+itemClicadoId).attr('aria-controls');
+            comoFuncionaItens.each(function() {
+                if($(this).first().attr('id') != itemClicadoAlvo){
+                    if($(this).first()[0].classList.contains('show')){
+                        $(this).first()[0].classList.remove('show');
+                    }
                 }
             });
+            
             comoFuncionaNavItens.each(function() {
-                if($(this).first().attr('aria-expanded') == 'true'){
-                    return $(this).first().attr('aria-expanded','false')
+                if($(this).first().attr('id') != itemClicadoId){
+                    if($(this).first()[0].classList.contains('collapsed') == false){
+                        $(this).first()[0].classList.add('collapsed');
+                    }
+                    if($(this).first().attr('aria-expanded') == 'true'){
+                        $(this).first().attr('aria-expanded', 'false');
+                    }
                 }
             });
         }
+
+        /**
+         * Trigger que dispara função verificarAccordion quando se clica em um dos botões controladores
+         * @returns {funct} retorna a função verificarAccordion()
+         */
         comoFuncionaNavItens.each( function() {
             $(this).on('click', verificarAccordion); 
         });

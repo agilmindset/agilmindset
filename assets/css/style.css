@@ -265,6 +265,12 @@ footer .fas {
 #comoFuncionaContainer {
     min-height: 50vh;
 }
+.comoFuncionaNav {
+    flex: 1 1 45%;
+}
+.comoFuncionaNav:nth-child(odd) {
+    margin-right: 10px;
+}
 .btn-dark.comoFuncionaNav[aria-expanded="true"] {
     /* color: #adff2f; */
     /* background-color: #192d35; */
@@ -345,5 +351,9 @@ a i::selection,
 
     #carouselPrincipal .carousel-item:first-child .banner-caption p {
         font-size: 1.5em;
+    }
+
+    .comoFuncionaNav {
+        flex: 0 1 25%;
     }
 }

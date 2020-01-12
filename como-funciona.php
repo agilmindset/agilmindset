@@ -45,27 +45,27 @@ $urlAmigavelPagina = "como-funciona";
                     </ul>
                     <p class="col-12 mb-3">Confira a seguir o <i>workflow</i> proposto inicialmente (as ferramentas muito provavelmente serão desenvolvidas nessa mesma ordem).</p>
                 </article>
-                <nav class="col-12 mt-4 d-flex flex-nowrap justify-content-start align-items-center bg-light" id="comoFuncionaNav">
-                    <button id="comoFuncionaBtnEarly" class="comoFuncionaNav btn btn-dark mr-2" type="button" data-toggle="collapse" data-target="#comoFuncionaEarly" aria-expanded="true" aria-controls="comoFuncionaEarly">Para Early Adopters</button>
-                    <button id="comoFuncionaBtnAdmin" class="comoFuncionaNav btn btn-dark m-2 my-2" type="button" data-toggle="collapse" data-target="#comoFuncionaAdmin" aria-expanded="false" aria-controls="comoFuncionaAdmin">Para Administradores</button>
-                    <button id="comoFuncionaBtnColab" class="comoFuncionaNav btn btn-dark m-2" type="button" data-toggle="collapse" data-target="#comoFuncionaColab" aria-expanded="false" aria-controls="comoFuncionaColab">Para Colaboradores</button>
-                    <button id="comoFuncionaBtnCliente" class="comoFuncionaNav btn btn-dark m-2" type="button" data-toggle="collapse" data-target="#comoFuncionaCliente" aria-expanded="false" aria-controls="comoFuncionaCliente">Para Clientes</button>
+                <nav class="col-12 mt-4 d-flex flex-wrap flex-md-nowrap justify-content-around justify-content-md-center align-items-center bg-light" id="comoFuncionaNav">
+                    <button id="comoFuncionaBtnEarly" class="comoFuncionaNav btn btn-dark mr-md-2 my-2" type="button" data-toggle="collapse" data-target="#comoFuncionaEarly" aria-expanded="true" aria-controls="comoFuncionaEarly">Early Adopters</button>
+                    <button id="comoFuncionaBtnAdmin" class="comoFuncionaNav collapsed btn btn-dark m-md-2 my-2" type="button" data-toggle="collapse" data-target="#comoFuncionaAdmin" aria-expanded="false" aria-controls="comoFuncionaAdmin">Administradores</button>
+                    <button id="comoFuncionaBtnCliente" class="comoFuncionaNav collapsed btn btn-dark m-md-2 my-2" type="button" data-toggle="collapse" data-target="#comoFuncionaCliente" aria-expanded="false" aria-controls="comoFuncionaCliente">Clientes</button>
+                    <button id="comoFuncionaBtnColab" class="comoFuncionaNav collapsed btn btn-dark m-md-2 my-2" type="button" data-toggle="collapse" data-target="#comoFuncionaColab" aria-expanded="false" aria-controls="comoFuncionaColab">Colaboradores</button>
                 </nav>
                 <article class="col-12 my-3" id="comoFuncionaContainer">
+                    <div id="comoFuncionaEarly" class="comoFuncionaItem collapse row show">
+                        <h3 class="text-center my-4 col-12">Para <i>Early Adopters</i></h3>
+                        <section class="col-12">
+                            <h4 class="mt-3 mb-1 col-12">01. Cadastro de <i>Early Adopters</i></h4>
+                            <p class="col-12 mt-3">Usuários que gostariam de colaborar com o projeto <b>agilmindset</b> podem usufruir gratuitamente de nossa ferramenta, acumulando pontos cujas recompensas ainda devem ser definidas.</p>
+                            <p class="col-12 mt-3">Atualmente não temos a opção de login nem de cadastro, mas você pode <a href="mailto:webmaster@agilmindset.com?subject=Solicitação%20de%20pré%20cadastro%20no%20site%20agilmindset" rel="noopener noreferrer" target="_blank" title="Solicitar pré cadastro gratuito na plataforma agilmindset">nos enviar um email e solicitar o seu pré cadastro</a> - ficaremos muito gratos com seu contato!</p>
+                        </section>
+                    </div>
                     <div id="comoFuncionaAdmin" class="comoFuncionaItem collapse row">
                         <h3 class="text-center my-4 col-12">Para Administradores</h3>
                         <section class="col-12">
                             <h4 class="mt-3 mb-1 col-12">01. Cadastro de Administradores</h4>
                             <p class="col-12 mt-3">O responsável pela empresa deverá se cadastrar no site <b><a href="https://agilmindset.com">agilmindset.com</a></b> e entrar em contato conosco para manifestar sua intenção de aquisição. Retornaremos prontamente o contato para entendermos as demandas específicas, o momento em que se encontra a empresa (em relação à cultura ágil e digital) e para conversarmos sobre como a <b>agilmindset</b> pode ajudar sua empresa da melhor maneira.</p>
                             <p class="col-12 mb-3">Atualmente não há planos disponíveis, mas iremos liberando o acesso a usuários já cadastrados conforme os protótipos dos módulos forem ficando prontos. Usuários que se cadastrarem antes do lançamento oficial da ferramenta gozarão de descontos e benefícios ainda a serem definidos.</p>
-                        </section>
-                    </div>
-                    <div id="comoFuncionaColab" class="comoFuncionaItem collapse row">
-                        <h3 class="text-center my-4 col-12">Para Colaboradores</h3>
-                        <section class="col-12">
-                            <h4 class="mt-3 mb-1 col-12">01. Cadastro de Colaboradores</h4>
-                            <p class="col-12 mt-3">Caso a empresa opte por utilizar a plataforma de modo interno, junto a seus colaboradores e/ou clientes previamente selecionados, o acesso será restrito (o administrador da instância da plataforma deverá cadastrar seus usuários previamente). Nesse caso você receberá seu usuário, senha (a ser alterada por você) e link para <a href="login" title="Já possuo meus dados de acesso e desejo fazer login">login</a>. Basta inserir seus dados de acesso para fazer login (e trocar sua senha).</p>
-                            <p class="col-12 mt-3">O conceito da ferramenta é <i>gamificar</i> os processos de modo a fomentar a interação entre os usuários. Para tal, devem ser definidas recompensas pelos pontos acumulados de acordo com as ações realizadas por cada usuário (como possíveis folgas a cada X pontos acumulados).</p>
                         </section>
                     </div>
                     <div id="comoFuncionaCliente" class="comoFuncionaItem collapse row">
@@ -76,12 +76,12 @@ $urlAmigavelPagina = "como-funciona";
                             <p class="col-12 mt-3">O conceito da ferramenta é <i>gamificar</i> os processos de modo a fomentar a interação entre os usuários. Para tal, devem ser definidas recompensas pelos pontos acumulados de acordo com as ações realizadas por cada usuário (como descontos em compras online).</p>
                         </section>
                     </div>
-                    <div id="comoFuncionaEarly" class="comoFuncionaItem collapse row show">
-                        <h3 class="text-center my-4 col-12">Para <i>Early Adopters</i></h3>
+                    <div id="comoFuncionaColab" class="comoFuncionaItem collapse row">
+                        <h3 class="text-center my-4 col-12">Para Colaboradores</h3>
                         <section class="col-12">
-                            <h4 class="mt-3 mb-1 col-12">01. Cadastro de <i>Early Adopters</i></h4>
-                            <p class="col-12 mt-3">Usuários que gostariam de colaborar com o projeto <b>agilmindset</b> podem usufruir gratuitamente de nossa ferramenta, acumulando pontos cujas recompensas ainda devem ser definidas.</p>
-                            <p class="col-12 mt-3">Atualmente não temos a opção de login nem de cadastro, mas você pode <a href="mailto:webmaster@agilmindset.com?subject=Solicitação%20de%20pré%20cadastro%20no%20site%20agilmindset" rel="noopener noreferrer" target="_blank" title="Solicitar pré cadastro gratuito na plataforma agilmindset">nos enviar um email e solicitar o seu pré cadastro</a> - ficaremos muito gratos com seu contato!</p>
+                            <h4 class="mt-3 mb-1 col-12">01. Cadastro de Colaboradores</h4>
+                            <p class="col-12 mt-3">Caso a empresa opte por utilizar a plataforma de modo interno, junto a seus colaboradores e/ou clientes previamente selecionados, o acesso será restrito (o administrador da instância da plataforma deverá cadastrar seus usuários previamente). Nesse caso você receberá seu usuário, senha (a ser alterada por você) e link para <a href="login" title="Já possuo meus dados de acesso e desejo fazer login">login</a>. Basta inserir seus dados de acesso para fazer login (e trocar sua senha).</p>
+                            <p class="col-12 mt-3">O conceito da ferramenta é <i>gamificar</i> os processos de modo a fomentar a interação entre os usuários. Para tal, devem ser definidas recompensas pelos pontos acumulados de acordo com as ações realizadas por cada usuário (como possíveis folgas a cada X pontos acumulados).</p>
                         </section>
                     </div>
                 </article>
