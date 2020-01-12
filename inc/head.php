@@ -117,8 +117,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- /Dados para mobile app -->
     <!-- Estilos -->
-    <link rel="pre-load" href="assets/css/style.css" />
-    <link rel="pre-render" href="assets/css/style.css" />
+    <link rel="preload" href="assets/css/style.css" as="style" />
+    <link rel="preload" href="assets/js/script.js" as="script" />
+    <link rel="prerender" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:500&display=swap" rel="stylesheet">

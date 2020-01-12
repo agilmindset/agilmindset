@@ -112,7 +112,7 @@ main {
     background-color: #192d35;
 }
 
-.banner-caption h1,
+.banner-caption h2,
 .banner-caption h4 {
     font-size: 2em;
     /* font-weight: bolder; */
@@ -124,7 +124,7 @@ main {
     font-family: 'Comfortaa', sans-serif;
 }
 
-#carouselPrincipal .carousel-item:first-child .banner-caption h1 {
+#carouselPrincipal .carousel-item:first-child .banner-caption h2 {
     font-size: 2.65em;
 }
 
@@ -203,10 +203,10 @@ p a[target="_blank"]:hover:not(.btn) {
 }
 
 .erro-404 .box,
-.como-funciona h1 .box,
-.politicas h1 .box,
-.sobre h1 .box,
-.termos h1 .box,
+.como-funciona h2 .box,
+.politicas h2 .box,
+.sobre h2 .box,
+.termos h2 .box,
 .formCadastroSection .box,
 .formLoginSection .box {
     color: #343a40;
@@ -310,7 +310,7 @@ section header i::selection {
         min-height: calc(100vh - 348px);
     }
 
-    .banner-caption h1,
+    .banner-caption h2,
     .banner-caption h4 {
         font-size: 3.6em;
     }
@@ -319,7 +319,7 @@ section header i::selection {
         font-size: 1.25em;
     }
 
-    #carouselPrincipal .carousel-item:first-child .banner-caption h1 {
+    #carouselPrincipal .carousel-item:first-child .banner-caption h2 {
         font-size: 5em;
     }
 
