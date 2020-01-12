@@ -271,12 +271,13 @@ footer .fas {
 .comoFuncionaNav:nth-child(odd) {
     margin-right: 10px;
 }
-.btn-dark.comoFuncionaNav[aria-expanded="true"] {
+.btn-dark.comoFuncionaNav[aria-expanded="true"],
+.btn-dark.comoFuncionaNav:hover {
     /* color: #adff2f; */
     /* background-color: #192d35; */
-    color: #000;
-    background-color: #ff00ff;
-    text-decoration: underline;
+    color: #fff;
+    background-color: #192d35;
+    /* text-decoration: underline; */
 }
 
 a#djamentCopyright:hover {

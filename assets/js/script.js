@@ -51,8 +51,11 @@ $(document).ready(function () {
         const comoFuncionaItens = $('.comoFuncionaItem'); // objeto com os blocos de conteúdo do accordion
         
         const verificarAccordion = (e) => {
+            
             var itemClicadoId = e.target.id;
             var itemClicadoAlvo = $('#'+itemClicadoId).attr('aria-controls');
+            var itensAbertos = 0;
+
             comoFuncionaItens.each(function() {
                 if($(this).first().attr('id') != itemClicadoAlvo){
                     if($(this).first()[0].classList.contains('show')){
@@ -69,8 +72,21 @@ $(document).ready(function () {
                     if($(this).first().attr('aria-expanded') == 'true'){
                         $(this).first().attr('aria-expanded', 'false');
                     }
+                } else {
+                    if($(this).first().attr('aria-expanded') == 'false'){
+                        itensAbertos++;
+                    }
                 }
             });
+
+            if(itensAbertos > 0) {
+                console.log(itensAbertos);
+                $('#comoFuncionaContainer')[0].style.minHeight = '66vh';
+            } else {
+                console.log(itensAbertos);
+                $('#comoFuncionaContainer')[0].style.minHeight = '0';
+            }
+
         }
 
         /**
