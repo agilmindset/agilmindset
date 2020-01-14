@@ -2,7 +2,9 @@
 <html lang="pt-BR" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <?php if( strpos($_SERVER["SERVER_NAME"],"localhost") ||  strpos($_SERVER["SERVER_NAME"],"127.0.0.1") || strpos($_SERVER["REQUEST_URI"],"magicbox")) { ?>
+    <?php if( $_SERVER["SERVER_NAME"] === "localhost" ||  $_SERVER["SERVER_NAME"] === "127.0.0.1" || strpos($_SERVER["REQUEST_URI"],"/magicbox/") ) {
+        echo "##### DEBUG MODE | LOCALHOST #####";
+    } else { ?>
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -152,7 +154,11 @@
     <!-- /Favicons -->
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQBBNJC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<?php if( $_SERVER["SERVER_NAME"] === "localhost" ||  $_SERVER["SERVER_NAME"] === "127.0.0.1" || strpos($_SERVER["REQUEST_URI"],"/magicbox/") ) { ?>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQBBNJC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<?php } else {
+    echo "<small>DEBUG MODE | LOCALHOST<small>";
+} ?>
