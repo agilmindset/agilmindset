@@ -25,6 +25,7 @@
 }
 
 a,
+nav span.box,
 strong {
     font-weight: inherit;
     text-decoration: none;
@@ -69,6 +70,7 @@ a span.box:hover,
 a:hover span.box {
     color: #fff;
 }
+
 #carouselPrincipal span.box,
 #bannerSecundario span.box {
     color: #adff2f;

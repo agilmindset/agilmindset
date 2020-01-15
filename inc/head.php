@@ -3,7 +3,7 @@
 
 <head>
     <?php if( $_SERVER["SERVER_NAME"] === "localhost" ||  $_SERVER["SERVER_NAME"] === "127.0.0.1" || strpos($_SERVER["REQUEST_URI"],"/magicbox/") ) {
-        echo "##### DEBUG MODE | LOCALHOST #####";
+        $ambiente = "##### DEBUG MODE | LOCALHOST #####";
     } else { ?>
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -155,10 +155,10 @@
 </head>
 <body>
 <?php if( $_SERVER["SERVER_NAME"] === "localhost" ||  $_SERVER["SERVER_NAME"] === "127.0.0.1" || strpos($_SERVER["REQUEST_URI"],"/magicbox/") ) { ?>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQBBNJC"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-<?php } else {
-    echo "<small>DEBUG MODE | LOCALHOST<small>";
-} ?>
+    <?= "<small>DEBUG MODE | LOCALHOST<small>"; ?>
+<?php } else { ?>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQBBNJC"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+<?php } ?>
