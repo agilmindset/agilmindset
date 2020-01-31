@@ -26,7 +26,7 @@ $urlAmigavelPagina = "como-funciona";
                     <p>Obrigado pela visita e interesse! Entenda o momento atual e os próximos passos previstos:</p>
                     <ul style="list-style-type: disc" class="pl-1 pl-sm-3 pl-md-4 mb-0">
                         <li class="my-2">Esse projeto encontra-se em fase embrionária (MVP v.0.0.1) - estamos finalizando a construção de nosso site (no qual você está navegando agora mesmo) para que possamos apresentar nossas ideias iniciais;</li>
-                        <li class="my-2">Contamos com a ajuda de todos - inclusive com a sua - à medida que formos disponibilizando (gratuitamente) nossas ferramentes em uma versão <i>demo</i> da plataforma - cujo projeto em foco será a própria <b>agilmindset</b>.</li>
+                        <li class="my-2">Contamos com a ajuda de todos - inclusive com a sua - à medida que formos disponibilizando (gratuitamente) nossas ferramentas em uma versão <i>demo</i> da plataforma - cujo projeto em foco será a própria <b>agilmindset</b>.</li>
                         <li class="my-2">Atualmente ainda não é possível adquirir uma instância de nossa plataforma, mas todo e qualquer usuário que venha a se cadastrar em nosso site antecipadamente terá acesso a benefícios e vantagens - ainda a serem definidas;</li>
                         <li class="my-2">Enquanto desenvolvemos nossa plataforma, estamos compartilhando conteúdo relevante em diferentes redes sociais, confira em nosso rodapé ou na página <a href="sobre" rel="next" title="Conheça melhor o projeto agilmindset">Sobre</a></li>
                     </ul>

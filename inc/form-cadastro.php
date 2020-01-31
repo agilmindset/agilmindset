@@ -7,7 +7,7 @@
     </div>
   </article>
   <article class="col-12 row mx-auto px-4">
-    <form class="mt-0 mb-3 mx-auto" action="" method="post" autocomplete="on" id="formCadastroUsuario">
+    <form class="mt-0 mb-3 mx-auto" action="utils/registrarUsuario.php" method="post" autocomplete="on" id="formCadastroUsuario">
       <div class="form-row">
         <div class="form-group col-12 col-sm-6">
           <label for="inputNome">Nome</label>
