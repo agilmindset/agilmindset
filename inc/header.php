@@ -29,6 +29,7 @@
                             <div class="dropdown-divider my-0"></div>
                             <a class="dropdown-item my-0 py-2 disabled" href="#/?id=<?php $id ?>" rel="next" title="Ver Meus Pontos">Meus Pontos</a>
                             <a class="dropdown-item my-0 py-2 disabled" href="#/?id=<?php $id ?>" rel="next" title="Ver Minhas Ideias">Minhas Ideias</a>
+                            <a class="dropdown-item my-0 py-2" href="utils/logout.php" rel="next" title="Logout">Logout</a>
                         </div>
                     </li>
                 <?php } ?>

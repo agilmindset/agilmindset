@@ -1,7 +1,8 @@
 <?php
-if(!isset($_SESSION)) { 
+// if(!isset($_SESSION)) { 
+    session_name('PHPSESSID');
     session_start();
-}
+// }
 if(isset($_SESSION) && $_SESSION) {
     $logado = $_SESSION["logado"];
     $nivel = $_SESSION["nivel"];

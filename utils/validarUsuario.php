@@ -1,6 +1,10 @@
 <?php
 
-  require_once("../config/conn.php");
+    if(isset($ambiente) && $ambiente === "produção"){
+        require_once("../config/conexao.php");
+    } else {
+        require_once("../config/conn.php");
+    }
 
     $email = $_POST["inputEmail"];
     $senha = $_POST["inputSenha"];
