@@ -7,7 +7,12 @@
     </div>
   </article>
   <article class="col-12 row mx-auto px-4">
-    <form class="mt-0 mb-3 mx-auto" action="" method="post" autocomplete="off" id="formLoginUsuario">
+    <form class="mt-0 mb-3 mx-auto" action="utils/validarUsuario.php" method="post" autocomplete="off" id="formLoginUsuario">
+      <?php if(isset($alerta) && $alerta && $alerta !== ""){ ?>
+        <div class="alert alert-warning" role="alert">
+          <?= $alerta ?>
+        </div>
+      <?php } ?>
       <div class="form-row">
         <div class="form-group col-12 col-sm-6">
           <label for="inputEmail">Email</label>
