@@ -25,10 +25,15 @@
             exit;
     
         } else {
-            session_start();
+            if(!isset($_SESSION)) { 
+                session_start();
+            }
+
             $_SESSION["logado"] = true;
-            $_SESSION["apelido"] = $usuario["apelido"];
-            $_SESSION["nivel"] = $usuario["nivel"];
+            $_SESSION["apelido"] = $usuarioLogado["apelido"];
+            $_SESSION["nivel"] = $usuarioLogado["nivel"];
+            $_SESSION["id"] = $usuarioLogado["id"];
+
             header("Location: ../index.php");
             exit;
         }

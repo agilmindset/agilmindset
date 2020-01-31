@@ -14,12 +14,24 @@
                 <li class="nav-item ml-auto">
                     <a class="nav-link text-white" href="como-funciona" rel="next" title="Como funciona a agilmindset">Como Funciona</a>
                 </li>
-                <li class="nav-item ml-auto">
-                    <a class="nav-link text-white" href="cadastrar-usuario" rel="next" title="Cadastre-se">Cadastre-se</a>
-                </li>
-                <li class="nav-item ml-auto">
-                    <a class="nav-link text-white" href="login" rel="next" title="Faça Login">Login</a>
-                </li>
+                <?php if((isset($logado) && $logado === false) || !isset($logado)) { ?>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link text-white" href="cadastrar-usuario" rel="next" title="Cadastre-se">Cadastre-se</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link text-white" href="login" rel="next" title="Faça Login">Login</a>
+                        </li>
+                <?php } else { ?>
+                    <li class="nav-item ml-auto dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="perfilUsuarioMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $apelido ?></a>
+                        <div class="dropdown-menu dropdown-menu-right py-0" aria-labelledby="perfilUsuarioMenu">
+                            <a class="dropdown-item my-0 py-2 disabled" href="editar-perfil/?id=<?php $id ?>" rel="next" title="Editar perfil">Editar Perfil</a>
+                            <div class="dropdown-divider my-0"></div>
+                            <a class="dropdown-item my-0 py-2 disabled" href="#/?id=<?php $id ?>" rel="next" title="Ver Meus Pontos">Meus Pontos</a>
+                            <a class="dropdown-item my-0 py-2 disabled" href="#/?id=<?php $id ?>" rel="next" title="Ver Minhas Ideias">Minhas Ideias</a>
+                        </div>
+                    </li>
+                <?php } ?>
             </ul>
         </div>
     </nav>

@@ -1,3 +1,44 @@
+<?php
+if(!isset($_SESSION)) { 
+    session_start();
+}
+if(isset($_SESSION) && $_SESSION) {
+    $logado = $_SESSION["logado"];
+    $nivel = $_SESSION["nivel"];
+    $apelido = $_SESSION["apelido"];
+    $id = $_SESSION["id"];
+    //   echo "<br><pre>";
+    //   var_dump($logado);
+    //   echo "</pre><br>";
+    //   echo "<br><pre>";
+    //   var_dump($nivel);
+    //   echo "</pre><br>";
+    //   echo "<br><pre>";
+    //   var_dump($apelido);
+    //   echo "</pre><br>";
+    //   echo "<br><pre>";
+    //   var_dump($id);
+    //   echo "</pre><br>";
+    // exit;
+    switch($nivel){
+        case 99:
+            $active = "superadmin";
+        break;
+        case 30:
+            $active = "administrador";
+        break;
+        case 10:
+            $active = "colaborador";
+        break;
+        default:
+            $active = "visitante";
+        break;
+    }
+    $_SESSION["active"] = $active;
+    // var_dump($_SESSION);
+    // exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-BR" prefix="og: http://ogp.me/ns#">
 
