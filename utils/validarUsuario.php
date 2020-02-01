@@ -34,9 +34,13 @@
             }
 
             $_SESSION["logado"] = true;
-            $_SESSION["apelido"] = $usuarioLogado["apelido"];
-            $_SESSION["nivel"] = $usuarioLogado["nivel"];
             $_SESSION["id"] = $usuarioLogado["id"];
+            $_SESSION["nome"] = $usuarioLogado["nome"];
+            $_SESSION["sobrenome"] = $usuarioLogado["sobrenome"];
+            $_SESSION["apelido"] = $usuarioLogado["apelido"];
+            $_SESSION["email"] = $usuarioLogado["email"];
+            $_SESSION["senha"] = $usuarioLogado["senha"];
+            $_SESSION["nivel"] = $usuarioLogado["nivel"];
 
             header("Location: ../index.php");
             exit;

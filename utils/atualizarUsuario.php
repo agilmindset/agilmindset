@@ -5,7 +5,9 @@
     } else {
         require_once("../config/conn.php");
     }
-
+    // var_dump($_POST);
+    // exit;
+    $id = $_POST["inputId"];
     $nome = $_POST["inputNome"];
     $sobrenome = $_POST["inputSobrenome"];
     $apelido = $_POST["inputApelido"];
@@ -25,12 +27,12 @@
         $nivel = 10;
     }
 
-    $sql = "INSERT INTO usuarios (id, nome, sobrenome, apelido, email, senha, aceite, nivel) values (:id, :nome, :sobrenome, :apelido, :email, :senha, :aceite, :nivel)";
+    $sql = "UPDATE usuarios SET nome = :nome, sobrenome = :sobrenome, apelido = :apelido, email = :email, senha = :senha, aceite = :aceite, nivel = :nivel WHERE id = :id";
 
     $query = $db->prepare($sql);
 
-    $salvou = $query->execute([
-        ":id" => NULL,
+    $atualizou = $query->execute([
+        ":id" => $id,
         ":nome" => $nome,
         ":sobrenome" => $sobrenome,
         ":apelido" => $apelido,
@@ -40,7 +42,17 @@
         ":nivel" => $nivel
     ]);
 
-    if(isset($salvou) && $salvou == true){
+    if(isset($atualizou) && $atualizou == true){
+        session_destroy();
+        session_start();
+        $_SESSION["logado"] = true;
+        $_SESSION["id"] = $id;
+        $_SESSION["nome"] = $nome;
+        $_SESSION["sobrenome"] = $sobrenome;
+        $_SESSION["apelido"] = $apelido;
+        $_SESSION["email"] = $email;
+        $_SESSION["senha"] = $senha;
+        $_SESSION["nivel"] = $nivel;
         header("Location: ../index.php");
     } else {
         header("Location: ../cadastrar-usuario.php");

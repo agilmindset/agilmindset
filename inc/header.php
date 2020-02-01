@@ -23,12 +23,12 @@
                         </li>
                 <?php } else { ?>
                     <li class="nav-item ml-auto dropdown">
-                        <a class="nav-link text-white dropdown-toggle" href="#" id="perfilUsuarioMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $apelido ?></a>
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="perfilUsuarioMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $_SESSION["apelido"] ?></a>
                         <div class="dropdown-menu dropdown-menu-right py-0" aria-labelledby="perfilUsuarioMenu">
-                            <a class="dropdown-item my-0 py-2 disabled" href="editar-perfil/?id=<?php $id ?>" rel="next" title="Editar perfil">Editar Perfil</a>
+                            <a class="dropdown-item my-0 py-2" href="editar-usuario" rel="next" title="Editar perfil">Editar Perfil</a>
                             <div class="dropdown-divider my-0"></div>
-                            <a class="dropdown-item my-0 py-2 disabled" href="#/?id=<?php $id ?>" rel="next" title="Ver Meus Pontos">Meus Pontos</a>
-                            <a class="dropdown-item my-0 py-2 disabled" href="#/?id=<?php $id ?>" rel="next" title="Ver Minhas Ideias">Minhas Ideias</a>
+                            <a class="dropdown-item my-0 py-2 disabled" href="#" rel="next" title="Ver Meus Pontos">Meus Pontos</a>
+                            <a class="dropdown-item my-0 py-2 disabled" href="#" rel="next" title="Ver Minhas Ideias">Minhas Ideias</a>
                             <a class="dropdown-item my-0 py-2" href="utils/logout.php" rel="next" title="Logout">Logout</a>
                         </div>
                     </li>
