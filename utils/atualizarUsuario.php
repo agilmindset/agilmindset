@@ -1,9 +1,11 @@
 <?php
 
-    if(isset($ambiente) && $ambiente === "produção"){
-        require_once("../config/conexao.php");
-    } else {
+    if( $_SERVER["SERVER_NAME"] === "localhost" ||  $_SERVER["SERVER_NAME"] === "127.0.0.1" || strpos($_SERVER["REQUEST_URI"],"/magicbox/") ) {
+        $ambiente = "debug";
         require_once("../config/conn.php");
+    } else {
+        require_once("../config/conexao.php");
+        $ambiente = "produção";
     }
     // var_dump($_POST);
     // exit;
