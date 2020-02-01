@@ -15,13 +15,18 @@
                     <a class="nav-link text-white" href="como-funciona" rel="next" title="Como funciona a agilmindset">Como Funciona</a>
                 </li>
                 <?php if((isset($logado) && $logado === false) || !isset($logado)) { ?>
-                        <li class="nav-item ml-auto">
-                            <a class="nav-link text-white" href="cadastrar-usuario" rel="next" title="Cadastre-se">Cadastre-se</a>
-                        </li>
-                        <li class="nav-item ml-auto">
-                            <a class="nav-link text-white" href="login" rel="next" title="Faça Login">Login</a>
-                        </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link text-white" href="cadastrar-usuario" rel="next" title="Cadastre-se">Cadastre-se</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link text-white" href="login" rel="next" title="Faça Login">Login</a>
+                    </li>
                 <?php } else { ?>
+                    <?php if($_SESSION["nivel"] === "99" && $_SESSION["active"] === "superadmin") { ?>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link text-white" href="listar-usuarios" rel="next" title="Listar Usuários">Usuários</a>
+                        </li>
+                    <?php } ?>
                     <li class="nav-item ml-auto dropdown">
                         <a class="nav-link text-white dropdown-toggle" href="#" id="perfilUsuarioMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $_SESSION["apelido"] ?></a>
                         <div class="dropdown-menu dropdown-menu-right py-0" aria-labelledby="perfilUsuarioMenu">

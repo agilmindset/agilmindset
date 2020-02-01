@@ -18,10 +18,14 @@
     ]);
 
     if(isset($excluiu) && $excluiu == true){
-        session_destroy();
-        session_start();
-        $_SESSION["logado"] = false;
-        header("Location: ../index.php");
+        if(isset($_REQUEST["excluirUsuarioViaLista"]) && $_REQUEST["excluirUsuarioViaLista"] === "excluindoViaLista") {
+            header("Location: ../listar-usuarios.php");
+        } else {
+            session_destroy();
+            session_start();
+            $_SESSION["logado"] = false;
+            header("Location: ../index.php");
+        }
     } else {
         header("Location: ../cadastrar-usuario.php");
     }
