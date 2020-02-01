@@ -18,7 +18,7 @@
     $localizou = $query->fetch(PDO::FETCH_ASSOC);
     // var_dump($localizou);
     // exit;
-    if(isset($localizou) && $localizou){
+    if(isset($localizou) && $localizou) {
       $editarId = $localizou["id"];
       $editarNome = $localizou["nome"];
       $editarSobrenome = $localizou["sobrenome"];
@@ -44,7 +44,11 @@
     </div>
   </article>
   <article class="col-12 row mx-auto px-4">
-    <form class="mt-0 mb-3 mx-auto" action="utils/atualizarUsuario.php" method="post" autocomplete="on" id="formCadastroUsuario">
+      <?php if(isset($_REQUEST["viaLista"]) && $_REQUEST["viaLista"] === "true") { ?>
+        <form class="mt-0 mb-3 mx-auto" action="utils/atualizarUsuario.php<?= "/?viaLista=true" ?>" method="post" autocomplete="on" id="formCadastroUsuario">
+      <?php } else { ?>
+        <form class="mt-0 mb-3 mx-auto" action="utils/atualizarUsuario.php" method="post" autocomplete="on" id="formCadastroUsuario">
+      <?php } ?>
       <input type="hidden" class="form-control" id="inputId" name="inputId" value="<?= $editarId ?>">
       <div class="form-row">
         <div class="form-group col-12 col-sm-6">

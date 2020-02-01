@@ -38,7 +38,7 @@ $urlAmigavelPagina = "listar-usuarios";
                             <td><?= $usuario["email"] ?></td>
                             <td><?= $usuario["nivel"] ?></td>
                             <td colspan="2">
-                                <a class="btn btn-light float-right" href="editar-usuario?idEditar=<?= $usuario["id"] ?>" rel="next" title="Editar Cadastro">Editar</a>
+                                <a class="btn btn-light float-right" href="editar-usuario?idEditar=<?= $usuario["id"] ?>&viaLista=true" rel="next" title="Editar Cadastro">Editar</a>
                                 <button type="button" class="btn btn-light float-right mx-2" id="excluirUsuario<?= $usuario["id"] ?>" title="Excluir Cadastro" data-toggle="modal" data-target="#excluirUsuarioModal<?= $usuario["id"] ?>">Excluir Cadastro</button>
                             </td>
                         </tr>
