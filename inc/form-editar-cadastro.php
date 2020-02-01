@@ -49,7 +49,30 @@
         <input type="checkbox" class="form-check-input" value="true" id="aceitePoliticasFormCadastro" name="aceitePoliticasFormCadastro" tab-index="6" required checked>
         <label class="form-check-label" for="aceitePoliticasFormCadastro">Estou de acordo com as <a href="politicas-de-privacidade" target="_blank" rel="noopener, noreferer" title="Leia nossas Políticas de Privacidade">Políticas de Privacidade</a> e <a href="termos-de-uso" target="_blank" rel="noopener, noreferer" title="Leia nossos Termos de Uso">Termos de Uso</a> do site.</label>
       </div>
-      <button type="submit" class="btn btn-dark float-right" value="cadastrarUsuario" title="Enviar informações para cadastro">Atualizar Cadastro</button>
+      <button type="submit" class="btn btn-dark float-right" id="atualizarUsuario" title="Enviar informações para cadastro">Atualizar Cadastro</button>
+      <button type="button" class="btn btn-light float-right mx-2" id="excluirUsuario" title="Excluir Cadastro" data-toggle="modal" data-target="#excluirUsuarioModal">Excluir Cadastro</button>
     </form>
   </article>
+</div>
+<div class="modal fade" id="excluirUsuarioModal" tabindex="-1" role="dialog" aria-labelledby="excluirUsuarioModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="excluirUsuarioModalLabel">Confirmar exclusão de cadastro</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p><?= $_SESSION["nome"] ?>, você tem certeza de que deseja excluir seu cadastro? <br/>Não será possível recuperá-lo posteriormente, ok?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <form action="utils/excluirUsuario.php" method="post">
+          <input type="hidden" name="inputId" value="<?= $_SESSION["id"] ?>">
+          <button type="submit" title="Excluir sua Conta de Usuário" rel="next" class="btn btn-danger">Excluir Cadastro</a>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>

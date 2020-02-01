@@ -97,6 +97,22 @@ ul {
     color: #000;
 }
 
+#atualizarUsuario.btn-dark:hover {
+    background-color: #343a40;
+    color: #adff2f;
+}
+
+#excluirUsuario.btn-light {
+    background-color: #ff00ff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+#excluirUsuario.btn-light:hover {
+    background-color: #192d35;
+    color: #ff00ff;
+}
+
 .banner-caption .btn-dark:hover {
     background-color: #343a40;
     color: #fff;
