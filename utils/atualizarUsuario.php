@@ -33,16 +33,9 @@
 
     $query = $db->prepare($sql);
 
-    $atualizou = $query->execute([
-        ":id" => $id,
-        ":nome" => $nome,
-        ":sobrenome" => $sobrenome,
-        ":apelido" => $apelido,
-        ":email" => $email,
-        ":senha" => password_hash($senha, PASSWORD_DEFAULT),
-        ":aceite" => $aceite,
-        ":nivel" => $nivel
-    ]);
+    $query->execute();
+
+    $atualizou = $query->fetch(PDO::FETCH_ASSOC);
 
     if(isset($atualizou) && $atualizou == true){
         session_destroy();
